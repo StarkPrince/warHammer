@@ -22,7 +22,7 @@ public:
             l[j].push_back(i);
     }
 
-    void printAdjList()
+    void print()
     {
         for (int i = 0; i < V; i++)
         {
@@ -44,5 +44,5 @@ int main()
     g.addEdge(1, 2);
     g.addEdge(1, 3);
     g.addEdge(2, 4);
-    g.printAdjList();
+    g.print();
 }
