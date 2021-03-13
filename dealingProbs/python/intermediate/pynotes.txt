@@ -1,0 +1,45 @@
+generator = (i for i in range(200))
+list_comprehension = [i for i in range(200)]
+generator is way too faster coz it doesnt save that
+
+[print(i) for i in xyz]
+print([*xyz])
+
+timeit module
+put all the codes in timeit.timeit("""here""",number = no of times)
+
+in list comprehension u can use the some variable and it will not be stored
+but in regular for loop it is stored and overwrite the orignal value
+
+next(x)//x.__next__() for skipping iteration in a iterator
+
+logging.debug("code")
+logging.info("code")
+logging.warning("code")
+logging.error("code")
+logging.critical("code")
+
+its better
+logging.basicConfig(filename = "",level = logging.warning)
+
+import json
+k = json.dumps(dictionary) => convert into json string
+p = json.loads(k) => convert back into dict
+
+from multiprocessing import Pool
+p = Pool()
+result = p.map(function,array)
+p.close()
+p.join()
+
+to get size of anything
+sys.getsizeof()
+
+line.rstrip("\n") -- strip the line
+
+print numpy.roots([1, 0, -1])           #Output : [-1.  1.]
+print numpy.polyint([1, 1, 1])          #Output : [ 0.33333333  0.5         1.          0.        ]
+print numpy.polyder([1, 1, 1, 1])       #Output : [3 2 1]
+print numpy.polyval([1, -2, 0, 2], 4)   #Output : 34
+print numpy.polyfit([0,1,-1, 2, -2], [0,1,1, 4, 4], 2)
+The functions polyadd, polysub, polymul, and polydiv also handle proper addition, subtraction, multiplication, and division of polynomial coefficients, respectively.

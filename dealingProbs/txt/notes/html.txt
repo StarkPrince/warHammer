@@ -1,0 +1,53 @@
+#generates random words
+Lorem no_of_words
+
+margin
+padding
+
+link rel href
+form input placeholder
+div font family
+font size
+
+#link any file or anything else
+anchor tags
+<a href="">name</a>
+
+#table
+<thead>
+	<tr>
+		<th></th>
+	</tr>
+<thead>
+<tbody>
+	<tr>
+		<td></td>
+	<tr>
+</tbody>
+
+#img
+<img src="">
+
+#form
+<form>
+	<input type="" name="" placeholder="">
+	<input type="submit">
+</form>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+#media queries
+@media (min-width:600px){css}
+@media (max-width:599px){css}
+
+#flexbox
+#container{display:flex flex-wrap:wrap}
+#container>div{css}
+<div id="container">
+	<div>1.<div>
+<div>
+
+#scss
+$color=red
+
+%sass --watch ___.scss:___.css

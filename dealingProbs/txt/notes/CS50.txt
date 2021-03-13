@@ -1,0 +1,31 @@
+AI Language
+M React Native
+AI Learning.mp4
+M React,Props,State
+AI Neutral Networks
+M Redux
+AI Optimization
+M User Input, Debugging
+AI Search
+W Django
+AI Uncertainity
+W Flask
+M Async Redux, Tools
+W Front End
+M Data
+W Github, Travis CI
+M Deploying, Testing
+W Javascript
+M Expo Components
+W ORMs,APIs
+M Javascript,ES6    
+W Scalability
+M Lists, User Input
+W Security
+M Navigation        
+W SQL
+M Overview, JavaScript
+W Testind,CI_CD
+M Performance
+W GIT
+W HTML, CSS

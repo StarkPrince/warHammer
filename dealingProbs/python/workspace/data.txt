@@ -1,0 +1,21 @@
+wpm: 66
+cpm: 16
+
+wpm: 102
+cpm: 26
+
+wpm: 115
+cpm: 29
+
+wpm: 107
+cpm: 27
+
+wpm: 74
+cpm: 19
+
+wpm: 107
+cpm: 27
+
+wpm: 104
+cpm: 26
+

@@ -1,0 +1,35 @@
+h1{
+    font-family: 'Comfortaa', cursive;
+    display: inline;
+    padding:30px 80% 70px 20%;
+    margin-left: 2em;
+    font-size: 60px;
+    background-color:rgb(172, 236, 255);
+    border-bottom: 80px aquamarine;
+}
+h2{
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 0.5em;
+    font-family: 'Langar', cursive;
+}
+div{
+    border: 10px solid #470092;
+    border-radius: 10%;
+    text-align: center;
+    width: 30%;
+    min-width: 350px;
+    padding-bottom: 0.5em;
+    margin-top: auto;
+    margin-bottom: 20px;
+    background-color: #ff9100;
+    min-height: 210px;
+    font-family: 'Varela Round', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+}

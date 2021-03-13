@@ -1,0 +1,8 @@
+// to print min of a list
+cout << *min_element(indx.begin(), indx.end());
+
+// to print elements of a list
+for (auto const &v : indx)
+        std::cout << v << "\n";
+
+//
