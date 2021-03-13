@@ -2,6 +2,7 @@ venv/
 .idea
 .vscode
 forked/
-realme/node_modules
+sagittarius/node_modules
 dealingProbs/ipynbs/excelFiles
 manhattan/cifar10
+hidden/
