@@ -2,7 +2,6 @@ venv/
 .idea
 .vscode
 forked/
-newnode/cataract/node_modules
 realme/node_modules
 dealingProbs/ipynbs/excelFiles
 manhattan/cifar10
