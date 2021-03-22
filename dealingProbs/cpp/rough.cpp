@@ -1,15 +1,42 @@
 #include <iostream>
-#include <string>
-#include <bits/stdc++.h>
+#include <stack>
+#include <string.h>
+#include <typeinfo>
 using namespace std;
-#include <algorithm>
-typedef long long ll;
-#include <cmath>
-#include <list>
-#include <map>
-#include <set>
-#include <iterator>
-#include <tuple>
+
+void reverseSentence(string s)
+{
+    stack<string> st;
+    for (int i = 0; i < s.length(); i++)
+    {
+        string word = "";
+        while (s[i] != ' ' && i < s.length())
+        {
+            word += s[i];
+            i++;
+        }
+        st.push(word);
+    }
+    while (!st.empty())
+    {
+        cout << st.top() << " ";
+        st.pop();
+    }
+    cout << endl;
+}
+int mx(stack<int> a)
+{
+    int m = 0;
+    for (int i = a.size(); i > 0; i--)
+    {
+        if (a.top() > m)
+        {
+            m = a.top();
+        }
+        a.pop();
+    }
+    return m;
+}
 
 int main()
 {
@@ -17,44 +44,25 @@ int main()
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
 #endif
+    stack<int> max;
+    stack<int> s;
+    max.push(0);
     int n;
-    cin >> n;
-    while (n--)
-    {
+    cin>>n;
+    while (n--){
         int a;
-        cin >> a;
-        int t1[a], t2[a], mn_x = INT32_MAX, mn_y = INT32_MAX, mx_x = INT32_MIN, mx_y = INT32_MIN;
-        for (int i = 0; i < a; i++)
-        {
-            int x, y;
-            cin >> x >> y;
-            if (x < mn_x)
-                mn_x = x;
-            if (y < mn_y)
-                mn_y = y;
-            if (mx_x < x)
-                mx_x = x;
-            if (mx_y < y)
-                mx_y = y;
-            t1[i] = x;
-            t2[i] = y;
+        cin>>a;
+        if(a==1){
+            cin>>a;
+            if(a>=max.top())
+                max.push(a);
+            s.push(a);
         }
-        int g = INT32_MAX;
-        int ans = 0;
-        for (int i = mn_x; i <= mx_x; i++)
-            for (int j = mn_y; j <= mx_y; j++)
-            {
-                int z = 0;
-                for (int k = 0; k < a; k++)
-                    z += abs(i - t1[k]) + abs(j - t2[k]);
-                if (z < g)
-                {
-                    g = z;
-                    ans = 1;
-                }
-                else if(z==g)
-                    ans++;
-            }
-        cout <<ans << endl;
+        else if(a==2){
+            if(s.top()==max.top()) max.pop();
+            s.pop();
+        } 
+        else if(a==3) cout<<max.top()<<endl;
     }
+    return 0;
 }
