@@ -5,4 +5,18 @@ cout << *min_element(indx.begin(), indx.end());
 for (auto const &v : indx)
         std::cout << v << "\n";
 
-//
+//sort(arr, arr + n, greater<int>());
+
+
+ll binarySearch(vector<ll> arr, ll init, ll finl, ll toFind)
+{
+    if (finl - init <= 1)
+        return finl;
+    ll mid = (init + finl) / 2;
+    if (toFind > arr[mid])
+        return binarySearch(arr, init, mid, toFind);
+    else if (toFind < arr[mid])
+        return binarySearch(arr, mid, finl, toFind);
+    else
+        return mid;
+}
