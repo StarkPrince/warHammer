@@ -20,3 +20,5 @@ ll binarySearch(vector<ll> arr, ll init, ll finl, ll toFind)
     else
         return mid;
 }
+
+//sort(a.begin(), a.end(), greater<int>());(vector sorted in decreasing order)
