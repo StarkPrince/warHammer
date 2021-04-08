@@ -11,28 +11,18 @@ int main()
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
 #endif
-    int n, k;
+    int n, k, ans = 0, t;
     cin >> n >> k;
     vector<int> g;
-    int a[n];
-    for (int i = 0; i < n; i++)
+    while (n--)
     {
-        cin >> a[i];
-        int q = a[i] / k;
-        for (int j = 1; j <= q; j++)
-        {
+        cin >> t;
+        for (int j = 1; j <= t / k; j++)
             g.push_back(k * j);
-        }
-        if (a[i] % k != 0)
-            g.push_back(a[i]);
+        if (t % k != 0)
+            g.push_back(t);
     }
-    int ans = 0;
     for (int i = 0; i < g.size(); i++)
-    {
-        int mx = g[i];
-        int mn = (g[i] - 1) / k;
-        mn = mn * k;
-        ans += (i > mn && i <= mx);
-    }
+        ans += (i >= ((g[i] - 1) / k) * k && i < g[i]);
     cout << ans;
 }
