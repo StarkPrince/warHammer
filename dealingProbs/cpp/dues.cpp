@@ -8,28 +8,48 @@ int main()
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
 #endif
-    int tc;
-    cin >> tc;
-    while (tc--)
+    int Q;
+    cin >> Q;
+    for (int a0 = 0; a0 < Q; a0++)
     {
-        int p;
-        cin >> p;
-        string g;
-        cin >> g;
-        bool l = true;
-        char left = g[0];
-
-        for (int i = 1; i < p - 1; i++)
+        int n;
+        cin >> n;
+        string b;
+        cin >> b;
+        int counters[26] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+        int emptys = 0;
+        for (size_t i = 0; i < n; ++i)
         {
-            cout << i << " " << g[i] << " " << l << endl;
-            if (g[i] == '_')
-                continue;
-            else if (g[i] == left || g[i] == g[i + 1])
-                left = g[i];
+            if (b[i] != '_')
+                counters[b[i] - 'A']++;
             else
-                l = false;
+                emptys++;
         }
-        cout << left << " " << g[p - 1] << " ";
-        cout << ((left == g[p - 1] && l) ? "YES\n" : "NO\n") << endl;
+        bool happy = true;
+        for (size_t i = 0; i < 26; ++i)
+        {
+            if (counters[i] == 1)
+            {
+                happy = false;
+                break;
+            }
+        }
+        if (emptys == 0)
+        {
+            if (happy)
+            {
+                if (b[0] != b[1] || b[n - 1] != b[n - 2])
+                    happy = false;
+                else
+                    for (size_t i = 1; i < n - 1; ++i)
+                        if (b[i] != b[i - 1] && b[i] != b[i + 1])
+                        {
+                            happy = false;
+                            break;
+                        }
+            }
+        }
+        cout << (happy ? "YES\n" : "NO\n");
     }
+    return 0;
 }
