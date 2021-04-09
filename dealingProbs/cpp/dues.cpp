@@ -1,16 +1,6 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <string.h>
 using namespace std;
-typedef long long ll;
-typedef pair<int, int> pii;
-
-#define ALL(x) (x).begin(), x.end()
-
-const int inf = 1e9;
-const int maxn = 1e5 + 10;
-
-ll a[maxn];
-ll b[maxn];
-int T, n, m, x;
 
 int main()
 {
@@ -18,28 +8,28 @@ int main()
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
 #endif
-    scanf("%d", &T);
-    while (T--)
+    int tc;
+    cin >> tc;
+    while (tc--)
     {
-        scanf("%d%d%d", &n, &m, &x);
-        for (int i = 1; i <= n; i++)
-            scanf("%lld", a + i);
-        for (int i = 1; i <= m; i++)
-            scanf("%lld", b + i);
+        int p;
+        cin >> p;
+        string g;
+        cin >> g;
+        bool l = true;
+        char left = g[0];
 
-        for (int i = 1; i <= n; i++)
-            a[i] += a[i - 1];
-        for (int i = 1; i <= m; i++)
-            b[i] += b[i - 1];
-
-        int res = 0;
-        for (int i = 0, j = m; i <= n && a[i] <= x; i++)
+        for (int i = 1; i < p - 1; i++)
         {
-            while (a[i] + b[j] > x && j >= 1)
-                j--;
-            res = max(res, i + j);
+            cout << i << " " << g[i] << " " << l << endl;
+            if (g[i] == '_')
+                continue;
+            else if (g[i] == left || g[i] == g[i + 1])
+                left = g[i];
+            else
+                l = false;
         }
-        printf("%d\n", res);
+        cout << left << " " << g[p - 1] << " ";
+        cout << ((left == g[p - 1] && l) ? "YES\n" : "NO\n") << endl;
     }
-    return 0;
 }
