@@ -1,8 +1,5 @@
 venv/
 .idea
 .vscode
-forked/
-sagittarius/node_modules
 dealingProbs/ipynbs/excelFiles
-manhattan/cifar10
-hidden/
+dealingProbs/python/manhattan/cifar10

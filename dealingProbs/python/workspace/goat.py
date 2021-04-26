@@ -1,18 +1,23 @@
-# for _ in range(int(input())):
-for p in [[10, '0111010000', '0100101100'], [4, '0000', '0000'], [3, '001', '000'], [12, '010101010101', '100110011010'], [6, '000111', '110100']]:
-	# n = int(input())
-	# a = input()
-	# b = input()
-	n,a,b = p
-	flag = 0
-	zero,one = a.count('0'),a.count('1')
-	for i in range(n-1,-1,-1):
-		if int(a[i])^flag!=int(b[i]):
-			if zero!=one:
-				print("NO")
-				break
-			flag = not flag
-		zero-= a[i]=='0'
-		one-=a[i]=='1'
-	else:
-		print("YES")
+def prime(n):
+    is_prime=True
+    for i in range (2, n):
+        if n % i == 0:
+            is_prime=False
+    return is_prime and n!=1
+def gcd(a, b):
+    if min(a,b) == 0:
+        return max(a, b)
+    return gcd(b, a%b)
+
+for _ in range(int(input())):
+    a,b,c = [int(x) for x in input().split()]
+    p=10**(a-1)-1 if a>1 else 2
+    q=10**(b-1)-1 if b>1 else 2
+    r=10**(c-1)+1 if c>1 else 2
+    p=r*((p//r)+1)
+    q=r*((q//r)+1)
+    if (a==b and b!=c):
+        q+=r
+    if (len(str(gcd(p,q)))!=c):
+        q+=r
+    print(p,q)

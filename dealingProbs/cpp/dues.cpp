@@ -14,10 +14,12 @@ int main()
     int arr[n];
     vector<int> p;
     map<int, int> sql;
+    cout << "here" << n;
     for (int i = 0; i < n; i++)
     {
         int r;
         cin >> r;
+        cout << r;
         if (!sql[r])
         {
             sql[r] = 0;
