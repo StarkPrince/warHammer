@@ -1,5 +1,5 @@
 venv/
 .idea
 .vscode
-dealingProbs/ipynbs/excelFiles
-dealingProbs/python/manhattan/cifar10
+python/ipynbs/excelFiles
+python/manhattan/cifar10
