@@ -100,3 +100,10 @@ def listtoset(a):
             b.append(i)
     return b
 
+def permutator(arr):
+	g = [[]]
+	for i,j in arr:
+		g = [m+[i] for m in g] + [m+[j] for m in g]
+	return g
+# arr = [(2, 3), (1, 5), (4, 6)]
+
