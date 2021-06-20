@@ -5,12 +5,8 @@ using namespace std;
 bool isPrime(int a)
 {
     for (int i = 2; i <= sqrt(a); i++)
-    {
         if (a % i == 0)
-        {
             return false;
-        }
-    }
     return true;
 }
 
@@ -25,13 +21,9 @@ int main()
     for (int i = a; i <= b; i++)
     {
         if (isPrime(i))
-        {
-            cout << i<<endl;
-        }
+            cout << i << endl;
         else
-        {
             continue;
-        }
     }
     return 0;
 }
