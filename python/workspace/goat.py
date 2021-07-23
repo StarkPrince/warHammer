@@ -1,25 +1,26 @@
 exp = {}
-products = []
+items = []
 s = purchased = ans = 0
-items = set()
 for _ in range(int(input())):
-	a,b = [int(x) for x in input().split()]
-	if b not in exp:
-		exp[b] = 0
-	exp[b],s=exp[b]+a,s+a
-	items.add(b)
-while(purchased<s):
-	t = min(items)
-	if(purchased>=t):
-		exp[t]-=1
-		ans+=1
-		if (exp[t] == 0):
-			items.remove(t)
-	else:
-		po = max(items)
-		ans+=2
-		exp[po]-=1
-		if (exp[po] == 0):
-			items.remove(po)
-	purchased+=1
+    a, b = [int(x) for x in input().split()]
+    try:
+        exp[b] += a
+    except:
+        exp[b] = a
+    s += a
+    items.append(b)
+items.sort()
+minptr = 0
+maxptr = len(items) - 1
+for i in range(s):
+    if i >= items[minptr]:
+        exp[items[minptr]] -= 1
+        ans += 1
+        if exp[items[minptr]] == 0:
+            minptr += 1
+    else:
+        ans += 2
+        exp[items[maxptr]] -= 1
+        if exp[items[maxptr]] == 0:
+            maxptr -= 1
 print(ans)

@@ -1,39 +1,69 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int k;
-string s;
-map<char, char> m;
+class node
+{
+public:
+    int data;
+    node *left;
+    node *right;
 
-int32_t main()
+    node(int d)
+    {
+        data = d;
+        left = NULL;
+        right = NULL;
+    }
+};
+
+node *buildTree()
+{
+    int d;
+    cin >> d;
+    if (d == -1)
+        return NULL;
+    node *n = new node(d);
+    n->left = buildTree();
+    n->right = buildTree();
+
+    return n;
+}
+
+void levelOrderTraversal(node *root)
+{
+    queue<node *> q;
+    q.push(root);
+    q.push(NULL);
+
+    while (!q.empty())
+    {
+        node *temp = q.front();
+        if (temp == NULL)
+        {
+            cout << endl;
+            q.pop();
+            if (!q.empty())
+                q.push(NULL);
+        }
+        else
+        {
+            q.pop();
+            cout << temp->data << " ";
+            if (temp->left)
+                q.push(temp->left);
+            if (temp->right)
+                q.push(temp->right);
+        }
+    }
+    return;
+}
+
+int main()
 {
 #ifndef ONLINE_JUDGE
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
 #endif
-    cin >> s >> k;
-    for (int i = 1; i <= k; i++)
-    {
-        char ch1, ch2;
-        cin >> ch1 >> ch2;
-        m[ch1] = ch2;
-        m[ch2] = ch1;
-    }
-    int retain = 0;
-    for (int i = 0; i < s.size(); i++)
-    {
-        map<char, int> cnt;
-        while (i < s.size() - 1 && ((s[i + 1] == s[i]) || (s[i + 1] == m[s[i]])))
-        {
-            cnt[s[i]]++;
-            i++;
-        }
-        cnt[s[i]]++;
-        int max1 = 0;
-        for (auto it : cnt)
-            max1 = max(max1, it.second);
-        retain += max1;
-    }
-    cout << s.size() - retain << endl;
-    return 0;
+    node *root = buildTree();
+    levelOrderTraversal(root);
 }
