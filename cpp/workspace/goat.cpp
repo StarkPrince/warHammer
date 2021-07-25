@@ -1,33 +1,44 @@
 #include <iostream>
-#include <limits.h>
-typedef long long ll;
+#include <string>
+#include <vector>
 using namespace std;
-
-ll gcd(ll a, ll b)
-{
-    if (b == 0)
-        return a;
-    else
-        return gcd(b, a % b);
-}
 
 int main()
 {
 #ifndef ONLINE_JUDGE
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
-#endif
-    ll tc;
-    cin >> tc;
-    while (tc--)
+#endif // ONLINE_JUDGE
+
+    vector<vector<int>> matrix;
+    int n;
+    cin >> n;
+    for (int i = 0; i < n; i++)
     {
-        int n;
-        cin >> n;
-        if (n % 3 == 0)
-            cout << n / 3 << " " << n / 3 << endl;
-        else if (n % 3 == 1)
-            cout << n / 3 + 1 << " " << n / 3 << endl;
+        int m;
+        cin >> m;
+        if (!matrix.empty())
+        {
+            bool k = false;
+            for (int i = 0; i < matrix.size() && !k; i++)
+            {
+                if (matrix[i][matrix[i].size() - 1] < m)
+                {
+                    matrix[i].push_back(m);
+                    k = true;
+                }
+            }
+            if (!k)
+                matrix.push_back(vector<int>(1, m));
+        }
         else
-            cout << n / 3 << " " << n / 3 + 1 << endl;
+            matrix.push_back(vector<int>(1, m));
     }
+    for (int i = 0; i < matrix.size(); i++)
+    {
+        for (int j = 0; j < matrix[i].size(); j++)
+            cout << matrix[i][j] << " ";
+        cout << endl;
+    }
+    return 0;
 }
