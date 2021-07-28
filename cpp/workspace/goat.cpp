@@ -1,44 +1,45 @@
 #include <iostream>
-#include <string>
 #include <vector>
 using namespace std;
 
+int countSplitInversion(vector<int> &v, int s, int e)
+{
+    int i = s;
+    int mid = (s + e) / 2;
+    int j = mid + 1;
+    int count = 0;
+    vector<int> temp;
+    while (i <= mid && j <= e)
+    {
+        if (v[i] < v[j])
+            temp.push_back(v[i++]);
+        else
+        {
+            temp.push_back(v[j++]);
+            count += (mid - i + 1);
+        }
+    }
+
+    while (i <= mid)
+        temp.push_back(v[i++]);
+    while (j <= e)
+        temp.push_back(v[j++]);
+    for (int k = 0; k < temp.size(); k++)
+        v[s + k] = temp[k];
+    return count;
+}
+
+int countInversions(vector<int> &v, int s, int e)
+{
+    if (s >= e)
+        return 0;
+    int mid = (s + e) / 2;
+    int left = countInversions(v, s, mid);
+    int right = countInversions(v, mid + 1, e);
+    int split = countSplitInversions(v, s, mid, e);
+    return left + right + split;
+}
+
 int main()
 {
-#ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-#endif // ONLINE_JUDGE
-
-    vector<vector<int>> matrix;
-    int n;
-    cin >> n;
-    for (int i = 0; i < n; i++)
-    {
-        int m;
-        cin >> m;
-        if (!matrix.empty())
-        {
-            bool k = false;
-            for (int i = 0; i < matrix.size() && !k; i++)
-            {
-                if (matrix[i][matrix[i].size() - 1] < m)
-                {
-                    matrix[i].push_back(m);
-                    k = true;
-                }
-            }
-            if (!k)
-                matrix.push_back(vector<int>(1, m));
-        }
-        else
-            matrix.push_back(vector<int>(1, m));
-    }
-    for (int i = 0; i < matrix.size(); i++)
-    {
-        for (int j = 0; j < matrix[i].size(); j++)
-            cout << matrix[i][j] << " ";
-        cout << endl;
-    }
-    return 0;
 }
