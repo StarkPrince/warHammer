@@ -1,15 +1,18 @@
-n = int(input())
-arr = [int(x) for x in input().split()]
-fountains = [-1] * n
+def getResult(N, K, arr):
+    s = sorted([arr[i][j] + arr[i][j + 1] for j in range(K - 1)
+               for i in range(N)], reverse=True)
+    t = sorted([arr[i][j] + arr[i + 1][j] for j in range(K)
+               for i in range(N-1)], reverse=True)
+    return max(sum(s[:K]), sum(t[:K]))
 
-for i in range(n):
-    left = max(0, i - arr[i])
-    right = min(n, i + arr[i] + 1)
-    fountains[left] = max(fountains[left], right)
 
-fountain_count = mx = 0
-for i in range(n):
-    if fountains[i] > mx:
-        mx = fountains[i]
-        fountain_count += 1
-print(fountain_count)
+def main():
+    N, K = [int(x) for x in input().split()]
+    m = []
+    for i in range(N):
+        m.append([int(x) for x in input().split()])
+
+    print(getResult(N, K, m))
+
+
+main()
