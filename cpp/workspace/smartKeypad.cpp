@@ -4,27 +4,34 @@
 #include <algorithm>
 using namespace std;
 
-string nums[] = {"", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
+string nums[] = {"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
 
-void generatePredictions(string input, string output, int index = 0)
+void printkeypadOutput(string input, string output, int index = 0)
 {
     if (input[index] == '\0')
     {
         cout << output << endl;
         return;
     }
-    for (int i = 0; i < nums[input[index] - '0'].size(); i++)
-    {
-        output.push_back(nums[input[index] - '0'][i]);
-        generatePredictions(input, output, index + 1);
-        output.pop_back();
-    }
+    //recursive call
+    int currentDigit = input[index] - '0';
+    if (currentDigit == 0 || currentDigit == 1)
+        printkeypadOutput(input, output, index + 1);
+    //keypad
+    for (int i = 0; i < nums[currentDigit].size(); i++)
+        printkeypadOutput(input, output + nums[currentDigit][i], index + 1);
 
-    int main()
-    {
+    return;
+}
+
+int main()
+{
 #ifndef ONLINE_JUDGE
-        freopen("input.txt", "r", stdin);
-        freopen("output.txt", "w", stdout);
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
 #endif
-        generatePredictions("", 0, 3);
-    }
+    string input;
+    cin >> input;
+    string output;
+    printkeypadOutput(input, output);
+}
