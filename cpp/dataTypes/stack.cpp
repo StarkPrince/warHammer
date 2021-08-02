@@ -43,10 +43,7 @@ public:
         }
         return arr[top];
     }
-    bool empty()
-    {
-        return top == -1;
-    }
+    bool empty() return top == -1;
 };
 
 int main()
