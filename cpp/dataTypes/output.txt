@@ -1,1 +1,1 @@
-Yes
+Diameter of the tree is 5
