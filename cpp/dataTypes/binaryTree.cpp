@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 #include <queue>
+#include <pair>
 using namespace std;
 
 class node
@@ -90,7 +91,31 @@ int height(node *root)
 {
     if (root == NULL)
         return 0;
-    return max(height(root->left), height(root->right)) + 1;
+    int h1 = height(root->left);
+    int h2 = height(root->right);
+    return max(h1, h2) + 1;
+}
+
+pair<int, bool> isBalancedHeight(node *root)
+{
+    pair<int, bool> p, left, right;
+    if (root == NULL)
+    {
+        p.first = 0;
+        p.second = true;
+        return p;
+    }
+    left = isBalancedHeight(root->left);
+    right = isBalancedHeight(root->right);
+    p.first = max(left.first, right.first) + 1;
+    if (left.second && right.second)
+    {
+        if (abs(left.first - right.first) <= 1 && left.first && right.first)
+            p.second = true;
+        else
+            p.second = false;
+    }
+    return p;
 }
 
 int diameter(node *root)
@@ -124,6 +149,41 @@ HDPair findHeightAndDiameter(node *root)
     return p;
 }
 
+int replaceWithSum(node *root)
+{
+    if (root == NULL)
+        return 0;
+    if (root->left == NULL && root->right == NULL)
+        return root->data;
+
+    int temp = root->data;
+    root->data = replaceWithSum(root->left) + replaceWithSum(root->right);
+    return root->data + temp;
+}
+class Pair
+{
+public:
+    int inc;
+    int exc;
+};
+
+Pair maxSubTree(node *root)
+{
+    Pair p;
+    if (root == NULL)
+    {
+        p.inc = 0;
+        p.exc = 0;
+        return p;
+    }
+    Pair left = maxSubTree(root->left);
+    Pair right = maxSubTree(root->right);
+
+    p.inc = root->data + left.exc + right.exc;
+    p.exc = max(left.inc, left.exc) + max(right.inc, right.exc);
+    return p;
+}
+
 int main()
 {
 #ifndef ONLINE_JUDGE
@@ -131,6 +191,8 @@ int main()
     freopen("output.txt", "w", stdout);
 #endif
     node *root = buildLevelOrder();
-    // cout << "Diameter of the tree is " << diameter(root) << endl;
-    cout << "Diameter of the tree is " << findHeightAndDiameter(root).diameter << endl;
+    levelOrderTraversal(root);
+    cout << endl;
+    replaceWithSum(root);
+    levelOrderTraversal(root);
 }
