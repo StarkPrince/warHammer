@@ -1,20 +1,15 @@
-from collections import Counter
+from math import comb
 
+d = {}
+st = input()
+for i in range(len(st)):
+    arr = [0] * 26
+    for j in range(i, len(st)):
+        if 96 < ord(st[j]) < 123:
+            arr[ord(st[j]) - 97] += 1
+        zm = "".join(str(mp) for mp in arr)
+        if zm not in d:
+            d[zm] = 0
+        d[zm] += 1
 
-def countTriplets(arr, r):
-    left = Counter()
-    right = Counter(arr)
-    ans = 0
-    for i in arr:
-        right[i] -= 1
-        if i % r == 0:
-            ans += left[i // r] * right[i * r]
-        left[i] += 1
-    return ans
-
-
-n, r = [int(x) for x in input().split()]
-arr = [int(x) for x in input().split()]
-print(countTriplets(arr, r))
-# 6 4
-# 1 16 4 16 64 16
+print(sum(comb(val, 2) if val > 1 else 0 for val in d.values()))
