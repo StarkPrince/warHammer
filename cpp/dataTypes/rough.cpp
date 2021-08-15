@@ -1,20 +1,23 @@
 #include <bits/stdc++.h>
+typedef long long ll;
 using namespace std;
-int n, b, a[200010];
+
 int main()
 {
-    cin >> n;
-    multiset<int> s;
-    for (int i = 0; i < n; i++)
-        cin >> a[i];
-    for (int i = 0; i < n; i++)
-        cin >> b, s.insert(b);
-    for (int i = 0; i < n; i++)
+#ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+#endif
+    int n, x, pos;
+    cin >> n >> x >> pos;
+    int i = 2;
+    ll ans = 1;
+    while (i <= n)
     {
-        auto p = s.lower_bound(n - a[i]);
-        if (p == s.end())
-            p = s.begin();
-        cout << (*p + a[i]) % n << ' ';
-        s.erase(p);
+        ans *= i;
+        ans %= 1000000007;
+        i++;
     }
+    cout << ans;
+    return 0;
 }

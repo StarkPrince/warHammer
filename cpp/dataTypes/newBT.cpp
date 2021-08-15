@@ -1,34 +1,30 @@
 #include <iostream>
-#include <set>
-#include <map>
-
 using namespace std;
 
-int main()
+class node
 {
-#ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-#endif
-    set<int> numbers;
-    map<int, int> left;
-    map<int, int> right;
+    node *left;
+    node *right;
+};
 
-    int n, v;
-    cin >> n >> v;
-    numbers.insert(v);
-    for (int i = 0; i < n - 1; i++)
+class trie
+{
+    node *root;
+
+public:
+    trie()
     {
-        cin >> v;
-        auto it = numbers.upper_bound(v);
-        if (it != numbers.end() && left.count(*it) == 0)
-            left[*it] = v;
-        else
-        {
-            it--;
-            right[*it] = v;
-        }
-        numbers.insert(v);
-        cout << *it << " ";
+        root = new node();
     }
+
+    void insert(int n)
+    {
+    }
+
+    int maxXorHelper
+}
+
+int
+main()
+{
 }
