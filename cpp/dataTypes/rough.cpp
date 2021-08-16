@@ -1,23 +1,24 @@
 #include <bits/stdc++.h>
-typedef long long ll;
+#include <iostream>
 using namespace std;
 
 int main()
 {
-#ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-#endif
-    int n, x, pos;
-    cin >> n >> x >> pos;
-    int i = 2;
-    ll ans = 1;
-    while (i <= n)
+    int tc;
+    cin >> tc;
+    while (tc--)
     {
-        ans *= i;
-        ans %= 1000000007;
-        i++;
+        int n, k;
+        cin >> n >> k;
+        int inv = n - k;
+        int unchanged = k - (inv + 1);
+        for (int i = 0; i < unchanged; i++)
+            cout << i + 1 << " ";
+        for (int i = k; i > unchanged; i--)
+            cout << i << " ";
+        cout << endl;
     }
-    cout << ans;
-    return 0;
 }
+
+// 10
+// 5 6 1 3 2 9 8 1 2 4
