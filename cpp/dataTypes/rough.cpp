@@ -4,6 +4,10 @@ using namespace std;
 
 int main()
 {
+#ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+#endif // ONLINE_JUDGE
     int tc;
     cin >> tc;
     while (tc--)
@@ -19,6 +23,3 @@ int main()
         cout << endl;
     }
 }
-
-// 10
-// 5 6 1 3 2 9 8 1 2 4
