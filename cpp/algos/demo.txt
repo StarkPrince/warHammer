@@ -1,0 +1,1 @@
+so we have to calculate maximum non adjacent sum of a given array
