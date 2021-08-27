@@ -1,18 +1,34 @@
+comp = ['1', '4', '6', '8', '9']
+
 for _ in range(int(input())):
     a = int(input())
-    m = []
-    for i in range(a):
-        tt = [int(x) for x in input().split()]
-        mn = 0
-        for j in range(1, tt[0] + 1):
-            mn = max(mn, tt[j] + 2 - j)
-        m.append([mn, tt[0]])
-    m = sorted(m)
-    ans = le = ps = 0
-    for i in range(a):
-        if m[i][0] > le:
-            ans = max(ans, m[i][0] - ps)
-            le = m[i][0]
-        ps += m[i][1]
-        le = max(le, m[i][1])
-    print(ans)
+    b = input()
+    d = {}
+    for i in b:
+        if i not in d:
+            d[i] = 0
+        d[i] += 1
+    ch = 0
+    ans = ""
+    for i in comp:
+        if i in d.keys():
+            ans = i
+            ch += 1
+    if ch > 0:
+        print("1\n" + ans)
+    elif '2' in d and d['2'] > 1:
+        print("2\n22")
+    elif '3' in d and d['3'] > 1:
+        print("2\n33")
+    elif '5' in d and d['5'] > 1:
+        print("2\n55")
+    elif '7' in d and d['7'] > 1:
+        print("2\n77")
+    elif b[1:].count('2'):
+        print("2\n" + b[0] + "2")
+    elif b[1:].count('5'):
+        print("2\n" + b[0] + "5")
+    elif '2' in d and '7' in d:
+        print('2\n27')
+    elif '5' in d and '7' in d:
+        print('2\n57')
