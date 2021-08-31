@@ -4,4 +4,8 @@ def roots(a, b, c):
     rd = abs(d)**0.5
     if d >= 0:
         return ((-b+rd)/2, (-b-rd)/2)
-    return (-b/2+str(rd/2)+"i", (-b/2-str(rd/2)+"i"))
+    return (str(-b/2)+"+"+str(rd/2)+"i", (str(-b/2)+"-"+str(rd/2)+"i"))
+
+
+a, b, c = [int(x) for x in input().split()]
+print(*roots(a, b, c))
