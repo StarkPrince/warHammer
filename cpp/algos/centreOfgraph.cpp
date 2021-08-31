@@ -1,22 +1,31 @@
 #include <bits/stdc++.h>
+#include <vector>
+#include <queue>
 using namespace std;
 
-#define mx 101
-int maximalNetworkRank(int n, vector<vector<int>> roads)
+class Graph
 {
-    vector<int> mp(mx, 0);
-    for (int i = 0; i < n; i++)
+    list<int> *l;
+    int V;
+
+public:
+    Graph(int V)
     {
-        int x = roads[i][0];
-        int y = roads[i][1];
-        mp[x]++;
-        mp[y]++;
+        this->V = V;
+        l = new list<int>[V + 1];
     }
-    int ans = 0;
-    for (int i = 1; i < mx; i++)
-        for (int j = i + 1; j < mx; j++)
-            ans = max(ans, mp[i] + mp[j] - 1);
-    return ans;
+    void addEdge(int u, int v)
+    {
+        l[u].push_back(v);
+        l[v].push_back(u);
+    }
+};
+
+int minTrioDegree(int n, vector<vector<int>> &edges)
+{
+    Graph g(n);
+    for (auto &e : edges)
+        g.addEdge(e[0], e[1]);
 }
 
 int main()
@@ -24,18 +33,11 @@ int main()
 #ifndef ONLINE_JUDGE
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
-#endif // ONLINE_JUDGE
+#endif
     int n;
     cin >> n;
-    vector<vector<int>> roads(n);
+    vector<vector<int>> v(n, vector<int>(n));
     for (int i = 0; i < n; i++)
-    {
-        int x, y;
-        cin >> x >> y;
-        vector<int> road(2);
-        road[0] = x;
-        road[1] = y;
-        roads[i] = road;
-    }
-    cout << maximalNetworkRank(n, roads) << endl;
+        cin >> v[i][0] >> v[i][1];
+    cout << minTrioDegree(n, v);
 }

@@ -1,18 +1,7 @@
-def I(): return [*map(int, input().split())]
-
-
-for _ in range(int(input())):
-    n = I()[0]
-    l = []
-    for i in range(n):
-        m, *p = I()
-        for j in range(m):
-            p[j] = p[j]-j+1
-        l.append([max(p), m])
-    l = sorted(l)
-    ans = l[0][0]
-    c = l[0][1]
-    for j in range(1, n):
-        ans += max(0, l[j][0]-ans-c)
-        c += l[j][1]
-    print(ans)
+# ax^2+bx+c
+def roots(a, b, c):
+    d = b**2-4*a*c
+    rd = abs(d)**0.5
+    if d >= 0:
+        return ((-b+rd)/2, (-b-rd)/2)
+    return (-b/2+str(rd/2)+"i", (-b/2-str(rd/2)+"i"))
