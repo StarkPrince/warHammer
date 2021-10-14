@@ -1,16 +1,24 @@
-for _ in range(int(input())):
-    a = int(input())
-    b = [int(x) % 2 for x in input().split()]
-    g = [[], []]
-    for i in range(a):
-        g[b[i]].append(i)
-    o, e = len(g[1]), len(g[0])
-    if abs(o - e) > 1:
-        print(-1)
-        continue
-    ans1 = ans2 = 0
-    for i in range(0, a, 2):
-        ans1 += abs(g[o > e][i // 2] - i)
-    for i in range(0, a - 1, 2):
-        ans2 += abs(g[o < e][i // 2] - (i + 1))
-    print(min(ans1, ans2))
+for p in range(int(input())):
+    if p == 0:
+        a = input()
+    n, k = [int(x) for x in input().split()]
+    k = min(k, n)
+    adj = {i: set() for i in range(1, n+1)}
+    x = input()
+    while(len(x) > 0):
+        g, h = [int(u) for u in x.split()]
+        adj[g].add(h)
+        adj[h].add(g)
+        x = input()
+    for i in range(k):
+        if not adj:
+            break
+        ddj = adj.copy()
+        for key, val in ddj.items():
+            if len(val) == 1:
+                adj[val.pop()].remove(key)
+                adj.pop(key)
+    ans = 0
+    for key, val in adj.items():
+        ans += len(val) > 0
+    print(adj)  # debug
