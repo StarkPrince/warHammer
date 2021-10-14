@@ -1,0 +1,1402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Playlist</title>
+	<trackList>
+		<track>
+			<location>file:///E:/Courses/%5BCB%5D%20Dynamic%20Programming/9.Grid%20Based%20DP/0.Griddp01minimumcostpath-1.mp4</location>
+			<title>Coding Blocks</title>
+			<duration>556642</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/9.Grid%20Based%20DP/1.Griddp02ratelephantways-2.mp4</location>
+			<title>Coding Blocks</title>
+			<duration>742942</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>1</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/9.Grid%20Based%20DP/2.Griddp03robotpathscodechef-3.mp4</location>
+			<title>Coding Blocks</title>
+			<duration>1016925</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>2</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/9.Grid%20Based%20DP/3.Griddp042dprefixsumgoldgrid-4.mp4</location>
+			<title>Coding Blocks</title>
+			<duration>1057976</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>3</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/9.Grid%20Based%20DP/4.Griddp05workingoutcodeforces-5.mp4</location>
+			<title>Coding Blocks</title>
+			<duration>1200876</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>4</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/9.Grid%20Based%20DP/4.Maximumsumrectanglein2dmatrix-5.mp4</location>
+			<title>Coding Blocks</title>
+			<duration>457842</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>5</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/11.Multidimensional%20DP/0.Advanceddpmixturesspoj-1.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1162113</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>6</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/11.Multidimensional%20DP/1.Mdptouristspoj-2.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>867734</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>7</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/11.Multidimensional%20DP/2.Mdptouristspojcode-3.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>823067</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>8</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/11.Multidimensional%20DP/4.Mdpalyonaandstringscodeforcescode-4.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>625734</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>9</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/11.Multidimensional%20DP/5.Advanceddpkorderedlcshackerearth-5.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>859094</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>10</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/11.Multidimensional%20DP/6.Advanceddprockscissorspaperproblem3ddp-6.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1179913</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>11</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/12.%F0%9F%94%A5%20Challenges%20-%20Multidimensional%20DP/1.Diwalipuzzle3ddp-2.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1421780</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>12</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/12.%F0%9F%94%A5%20Challenges%20-%20Multidimensional%20DP/3.LCSFor3StringsHint.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>309120</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>13</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/12.%F0%9F%94%A5%20Challenges%20-%20Multidimensional%20DP/5.Squarebracketshintvideo-34.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>834609</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>14</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/12.%F0%9F%94%A5%20Challenges%20-%20Multidimensional%20DP/7.BuyingFruitsHintVideo.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>550800</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>15</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/12.%F0%9F%94%A5%20Challenges%20-%20Multidimensional%20DP/9.Shufflinghintvideo%201-40.m4v</location>
+			<duration>1205270</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>16</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/12.%F0%9F%94%A5%20Challenges%20-%20Multidimensional%20DP/11.Maximumxorpermutationhintvideo-4.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>807009</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>17</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/12.%F0%9F%94%A5%20Challenges%20-%20Multidimensional%20DP/17.Littlevipulandhisquerieshintvideo-10.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>540709</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>18</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/12.%F0%9F%94%A5%20Challenges%20-%20Multidimensional%20DP/19.Maximumsumsubarrayhintvideo-12.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>865176</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>19</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/12.%F0%9F%94%A5%20Challenges%20-%20Multidimensional%20DP/22.Moneychangehintvideo-16.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>470209</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>20</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/12.%F0%9F%94%A5%20Challenges%20-%20Multidimensional%20DP/24.Sportsfesthintvideo-18.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>908376</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>21</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/12.%F0%9F%94%A5%20Challenges%20-%20Multidimensional%20DP/26.Subsetsumtotargethintvideo-21.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>364988</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>22</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/12.%F0%9F%94%A5%20Challenges%20-%20Multidimensional%20DP/28.SubsetSumToTargetHint.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>831600</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>23</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/12.%F0%9F%94%A5%20Challenges%20-%20Multidimensional%20DP/30.Classphotographhintvideo-25.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>806409</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>24</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/12.%F0%9F%94%A5%20Challenges%20-%20Multidimensional%20DP/32.Countofstringsabchintvideo-27.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>639476</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>25</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/12.%F0%9F%94%A5%20Challenges%20-%20Multidimensional%20DP/37.Advanceddpkorderedlcshackerearth-32.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>859094</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>26</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/13.DP%20with%20Bitmasks/0.Dpwithbitmaskstravellingsalesmanproblem2ddp-1.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1817757</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>27</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/13.DP%20with%20Bitmasks/2.Dpbitvipulandmodulos-3.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>608363</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>28</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/13.DP%20with%20Bitmasks/3.Dpbitvipulandmoduloshackerblockscode-4.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1059567</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>29</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/13.DP%20with%20Bitmasks/4.DPBitMahmoudandEhabCodeforces959F.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1661520</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>30</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/13.DP%20with%20Bitmasks/5.Dpbitmahmoudandehabcodeforcescode-6.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>679500</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>31</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/13.DP%20with%20Bitmasks/6.DPBitANDReachabilityCodeforces1169E.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>712600</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>32</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/13.DP%20with%20Bitmasks/7.Dpbitandreachabilitycode-8.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1139367</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>33</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/13.DP%20with%20Bitmasks/8.Dpbitsealcmcodechef-9.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1103104</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>34</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/13.DP%20with%20Bitmasks/9.DPBITSealcmCodechefCode.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>3305720</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>35</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/13.DP%20with%20Bitmasks/10.Dpwithbitmasksshoptripcodechef-2.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>2685035</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>36</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/14.%F0%9F%94%A5%20Challenges%20-%20DP%20with%20Bitmasking/3.Matchthemapproach1-19.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>612682</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>37</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/14.%F0%9F%94%A5%20Challenges%20-%20DP%20with%20Bitmasking/4.Matchthemdpapproach-21.m4v</location>
+			<title>4.MatchThemDPApproach</title>
+			<duration>518592</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>38</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/14.%F0%9F%94%A5%20Challenges%20-%20DP%20with%20Bitmasking/6.Largestsubsethintvideo-23.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>804595</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>39</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/14.%F0%9F%94%A5%20Challenges%20-%20DP%20with%20Bitmasking/8.Maximumxorhintvideo-25.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>537333</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>40</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/14.%F0%9F%94%A5%20Challenges%20-%20DP%20with%20Bitmasking/10.Maximumcostpermutationhintvideo-3.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>778008</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>41</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/14.%F0%9F%94%A5%20Challenges%20-%20DP%20with%20Bitmasking/12.Minsetofstringshintvideo-5.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>666533</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>42</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/14.%F0%9F%94%A5%20Challenges%20-%20DP%20with%20Bitmasking/14.Orsubarrayhintvideo-7.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>872839</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>43</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/14.%F0%9F%94%A5%20Challenges%20-%20DP%20with%20Bitmasking/14.Orsubarrayshintvideo-8.m4v</location>
+			<title>14.ORSubarraysHintVideo</title>
+			<duration>873267</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>44</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/14.%F0%9F%94%A5%20Challenges%20-%20DP%20with%20Bitmasking/17.Perfectsubsethintvideo-11.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1483709</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>45</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/14.%F0%9F%94%A5%20Challenges%20-%20DP%20with%20Bitmasking/19.Primetripletshintvideo-13.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>992491</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>46</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/14.%F0%9F%94%A5%20Challenges%20-%20DP%20with%20Bitmasking/21.Xormatrixhintvideo-16.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>725554</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>47</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/14.%F0%9F%94%A5%20Challenges%20-%20DP%20with%20Bitmasking/23.Xoronarrayshintvideo-18.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>783735</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>48</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/15.Geometry%20Basics/0.Convexhull1-1.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1367976</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>49</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/15.Geometry%20Basics/1.Convexhull2continued-2.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1588242</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>50</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/16.DP%20and%20Geometry/0.convexhulltrickbasic.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>3346640</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>51</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/16.DP%20and%20Geometry/1.Codingconvexhulltrickbasictemplate-2.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>875367</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>52</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/16.DP%20and%20Geometry/2.Bearandbowlingconvexhullltrickdp-3.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1194774</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>53</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/16.DP%20and%20Geometry/3.Codingbearandbowling4convexhulltrickdp-4.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>873434</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>54</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/16.DP%20and%20Geometry/4.Elevatetodominatecodeforcesconexhulltrickdp-5.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>825067</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>55</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/16.DP%20and%20Geometry/5.Codingelevatetodominatecodeforcesconvexhulltrickdp-6.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>669934</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>56</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/16.DP%20and%20Geometry/6.Fairnutandrectanglesconvexhulltrickdp-7.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>579584</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>57</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/16.DP%20and%20Geometry/7.Codingfairnutandrectangles1sthalfcodeforcesconvexhulltrickdp-8.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>420011</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>58</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/16.DP%20and%20Geometry/8.Codingfairnutandrectanglescodeforces2ndhalfconvexhulltrickdp-9.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>200234</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>59</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/18.Digit%20DP/0.DigitDPClassyNumbers.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1882800</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>60</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/18.Digit%20DP/1.DPDIGITClassyNumbersCodeforcesCode.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>443040</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>61</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/18.Digit%20DP/2.DigitDPMaximumProduct.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1112960</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>62</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/18.Digit%20DP/3.DPDIGITMaximumProductDigitCodeforcesCode.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1362240</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>63</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/18.Digit%20DP/4.DPDIGITdmagicnumbersCodeforcesCode.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1393640</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>64</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/18.Digit%20DP/5.DigitDPMagicNumbers.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1313320</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>65</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/18.Digit%20DP/6.DigitDPTotalPalindromicNumbersCodechef.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>970320</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>66</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/18.Digit%20DP/7.DPDIGITTotalPalindromicNumbersCodechefCode.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>890600</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>67</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/18.Digit%20DP/8.DigitDPIncreasingXORCodechef.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1216400</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>68</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/18.Digit%20DP/9.DigitDPINCXORCODECHEFCode.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1327160</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>69</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/18.Digit%20DP/10.DigitDPWORKCHEF.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1062760</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>70</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/18.Digit%20DP/11.DPDIGITWORKCHEF30ptsCODECHEFCode.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1136480</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>71</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/18.Digit%20DP/12.DPDIGITWorkchef100ptsCodechefCode.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>430080</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>72</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/19.%F0%9F%94%A5%20Challenges%20-%20Digit%20DP/2.369Numbershintvideo-3.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>861342</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>73</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/19.%F0%9F%94%A5%20Challenges%20-%20Digit%20DP/4.Encodinghintvideo-5.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1749009</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>74</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/19.%F0%9F%94%A5%20Challenges%20-%20Digit%20DP/6.Pattern110hintvideo-7.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>696342</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>75</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/19.%F0%9F%94%A5%20Challenges%20-%20Digit%20DP/8.PRNumbersHintVideo.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1497040</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>76</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/20.DP%20on%20Trees/0.Longestpathinatreedpontree-1.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>674710</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>77</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/20.DP%20on%20Trees/1.Codinglongestpathinatreespojdpontree-2.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>617300</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>78</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/20.DP%20on%20Trees/2.Famtreecodechefdpontree-5.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>413718</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>79</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/20.DP%20on%20Trees/3.Codingfamtreecodechefdpontree-6.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>341400</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>80</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/20.DP%20on%20Trees/4.Xorcircuitcodechefdpontree-7.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>472555</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>81</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/20.DP%20on%20Trees/5.Codingxorcircuitcodechefdpontree.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1669520</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>82</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/20.DP%20on%20Trees/6.treepaintingcodeforcesdpontree.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1383600</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>83</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/20.DP%20on%20Trees/7.Codingpaintingontreecodeforcesdpontree-10.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>424767</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>84</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/20.DP%20on%20Trees/8.applemanandtreecodeforcesdpontree.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>2092960</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>85</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/20.DP%20on%20Trees/9.Codingapplemanandtreecodeforcesdpontree-12.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>695167</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>86</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/20.DP%20on%20Trees/10.countingonatreehackerearthdpontree.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>2681280</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>87</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/20.DP%20on%20Trees/11.Codingcountingonatreehackerearthdpontree-4.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>684234</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>88</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/21.%F0%9F%94%A5Challenges%20-%20DP%20on%20Trees/2.Amitandtreehintvideo-7.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1237547</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>89</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/21.%F0%9F%94%A5Challenges%20-%20DP%20on%20Trees/5.Popeyeandmagictreehintvideo-10.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>754076</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>90</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/21.%F0%9F%94%A5Challenges%20-%20DP%20on%20Trees/7.Kingdompartitionhintvideo-12.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1079309</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>91</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/21.%F0%9F%94%A5Challenges%20-%20DP%20on%20Trees/9.HealthInitiativeHintVideo.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1284000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>92</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/21.%F0%9F%94%A5Challenges%20-%20DP%20on%20Trees/11.Subsetselectionhintvideo-4.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>811342</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>93</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/21.%F0%9F%94%A5Challenges%20-%20DP%20on%20Trees/13.Coffeeshopshintvideo-6.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1060409</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>94</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/22.DP%20on%20Graphs/0.DPGraphShoPPingTripUVA.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>446320</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>95</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/22.DP%20on%20Graphs/1.dagcnt2spojdpongraph.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1176760</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>96</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/22.DP%20on%20Graphs/2.Codingdagcnt2spojdpongraph.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1525360</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>97</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/22.DP%20on%20Graphs/3.DPGraphShoppingTripUvaCode.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>2369120</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>98</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/22.DP%20on%20Graphs/4.journeycodeforcesdpongraph.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1282200</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>99</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/22.DP%20on%20Graphs/5.Codingjourneycodeforcesdpongraph.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>2347400</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>100</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/22.DP%20on%20Graphs/6.asimpletaskcodeforcesdpongraph.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>978480</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>101</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/22.DP%20on%20Graphs/7.CodingAsimpletaskcodeforcesdpongraph.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>824560</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>102</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/22.DP%20on%20Graphs/8.gcdondirectedgraphdpongraph.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1133880</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>103</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/22.DP%20on%20Graphs/9.Codinggcdondirectedgraphhackerearthdpongraph.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>2788960</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>104</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/22.DP%20on%20Graphs/10.CodingDebuggingwhysetfunctionsfineingcdondirectedgraphs.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>127200</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>105</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/22.DP%20on%20Graphs/11.ICPCTripInterestingGraphsProblem.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>785971</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>106</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/23.%F0%9F%94%A5Challenges%20-%20DP%20on%20Graphs/2.Pingpongracinghintvideo-3.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>421281</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>107</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/23.%F0%9F%94%A5Challenges%20-%20DP%20on%20Graphs/4.Royaltourhintvideo-5.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>857071</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>108</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/24.S0S%20DP/0.SOSDPIntroduction.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>2487840</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>109</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/24.S0S%20DP/1.Sosdpspecialpairs-2.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>926998</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>110</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/24.S0S%20DP/2.Sosdpspecialpairshackerearthcode-3.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>743167</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>111</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/24.S0S%20DP/3.Sosdpvowelscodeforces-4.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1347499</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>112</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/24.S0S%20DP/4.SOSDPVowelsCodeforcesCode.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1709120</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>113</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/24.S0S%20DP/5.Sosdpvimwarhackerrank-6.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1248427</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>114</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/24.S0S%20DP/6.Sosdpvimwarhackerrankcode-7.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1024034</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>115</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/24.S0S%20DP/7.SOSDPJZZHuandNumbers.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1615000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>116</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/24.S0S%20DP/8.Sosdpjzzhuandnumberscodeforcescode-9.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>643567</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>117</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/26.Problem%20Set%20-%20I/1.Problemafrog1-2.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1074816</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>118</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/26.Problem%20Set%20-%20I/2.Problembfrog2-3.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>862809</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>119</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/26.Problem%20Set%20-%20I/3.Problemcvacation-4.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1416876</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>120</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/26.Problem%20Set%20-%20I/4.Problemdknapsack1logic-5.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>948374</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>121</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/26.Problem%20Set%20-%20I/5.Problemdknapsack1implementation-6.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>538676</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>122</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/27.Problem%20Set%20-%20II/0.Problemeknapsack2-1.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1265238</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>123</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/27.Problem%20Set%20-%20II/1.ProblemFLCS.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1575160</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>124</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/27.Problem%20Set%20-%20II/2.Problemglongestpath-3.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1035342</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>125</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/27.Problem%20Set%20-%20II/3.ProblemHGrid1.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1366840</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>126</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/28.Problem%20Set%20-%20III/0.ProblemICoins.m4v</location>
+			<title>0.ProblemICoins</title>
+			<duration>1051680</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>127</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/28.Problem%20Set%20-%20III/1.ProblemJSushiProblemExplanation.m4v</location>
+			<title>1.ProblemJSushiProblemExplanation</title>
+			<duration>1349360</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>128</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/28.Problem%20Set%20-%20III/2.ProblemJSushiLogicandImplementation.m4v</location>
+			<title>2.ProblemJSushiLogicandImplementation</title>
+			<duration>1601440</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>129</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/28.Problem%20Set%20-%20III/3.ProblemKStones.m4v</location>
+			<title>3.ProblemKStones</title>
+			<duration>934040</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>130</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/28.Problem%20Set%20-%20III/4.ProblemLDeque.m4v</location>
+			<title>4.ProblemLDeque</title>
+			<duration>1545920</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>131</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/29.Problem%20Set%20-%20IV/0.ProblemMCandies.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1734560</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>132</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/29.Problem%20Set%20-%20IV/1.ProblemNSlimes.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1540920</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>133</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/29.Problem%20Set%20-%20IV/2.ProblemOMatching.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>2221600</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>134</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/29.Problem%20Set%20-%20IV/3.ProblemPIndependentSet.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1370880</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>135</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/29.Problem%20Set%20-%20IV/4.ProblemQFlowers.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>2194280</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>136</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/30.Problem%20Set%20-%20V/0.ProblemRWalk.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>2212360</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>137</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/30.Problem%20Set%20-%20V/1.ProblemSDigitSum.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>2150600</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>138</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/30.Problem%20Set%20-%20V/2.ProblemTPermutation.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>3140600</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>139</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/30.Problem%20Set%20-%20V/3.ProblemUGrouping.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>2524880</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>140</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/30.Problem%20Set%20-%20V/4.ProblemVSubtree.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>2638440</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>141</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/31.Problem%20Set%20-%20VI/0.ProblemWIntervalsBruteForceApproach.m4v</location>
+			<title>0.ProblemWIntervalsBruteForceApproach</title>
+			<duration>1473480</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>142</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/31.Problem%20Set%20-%20VI/1.ProblemWIntervalsOptimisedApproach.m4v</location>
+			<title>1.ProblemWIntervalsOptimisedApproach</title>
+			<duration>1854960</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>143</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/31.Problem%20Set%20-%20VI/2.ProblemXTower.m4v</location>
+			<title>2.ProblemXTower</title>
+			<duration>2678800</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>144</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/31.Problem%20Set%20-%20VI/3.ProblemYGrid2Logic.m4v</location>
+			<title>3.ProblemYGrid2Logic</title>
+			<duration>1712440</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>145</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/31.Problem%20Set%20-%20VI/4.ProblemYGrid2Implementation.m4v</location>
+			<title>4.ProblemYGrid2Implementation</title>
+			<duration>1820760</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>146</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/31.Problem%20Set%20-%20VI/5.ProblemZFrog3.m4v</location>
+			<title>5.ProblemZFrog3</title>
+			<duration>3739200</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>147</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/33.Special%20Module%20-%20Longest%20Increasing%20Subsequence/0.LIS1.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>999520</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>148</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/33.Special%20Module%20-%20Longest%20Increasing%20Subsequence/1.LIS2.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>287400</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>149</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/33.Special%20Module%20-%20Longest%20Increasing%20Subsequence/2.LIS3.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1705720</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>150</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/33.Special%20Module%20-%20Longest%20Increasing%20Subsequence/3.LIS4.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>414440</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>151</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/33.Special%20Module%20-%20Longest%20Increasing%20Subsequence/4.LIS5.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>621440</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>152</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/33.Special%20Module%20-%20Longest%20Increasing%20Subsequence/5.LIS6.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>1609040</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>153</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/[CB]%20Dynamic%20Programming/33.Special%20Module%20-%20Longest%20Increasing%20Subsequence/6.LIS7.m4v</location>
+			<title>Coding Blocks</title>
+			<duration>470400</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>154</vlc:id>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:item tid="0"/>
+		<vlc:item tid="1"/>
+		<vlc:item tid="2"/>
+		<vlc:item tid="3"/>
+		<vlc:item tid="4"/>
+		<vlc:item tid="5"/>
+		<vlc:item tid="6"/>
+		<vlc:item tid="7"/>
+		<vlc:item tid="8"/>
+		<vlc:item tid="9"/>
+		<vlc:item tid="10"/>
+		<vlc:item tid="11"/>
+		<vlc:item tid="12"/>
+		<vlc:item tid="13"/>
+		<vlc:item tid="14"/>
+		<vlc:item tid="15"/>
+		<vlc:item tid="16"/>
+		<vlc:item tid="17"/>
+		<vlc:item tid="18"/>
+		<vlc:item tid="19"/>
+		<vlc:item tid="20"/>
+		<vlc:item tid="21"/>
+		<vlc:item tid="22"/>
+		<vlc:item tid="23"/>
+		<vlc:item tid="24"/>
+		<vlc:item tid="25"/>
+		<vlc:item tid="26"/>
+		<vlc:item tid="27"/>
+		<vlc:item tid="28"/>
+		<vlc:item tid="29"/>
+		<vlc:item tid="30"/>
+		<vlc:item tid="31"/>
+		<vlc:item tid="32"/>
+		<vlc:item tid="33"/>
+		<vlc:item tid="34"/>
+		<vlc:item tid="35"/>
+		<vlc:item tid="36"/>
+		<vlc:item tid="37"/>
+		<vlc:item tid="38"/>
+		<vlc:item tid="39"/>
+		<vlc:item tid="40"/>
+		<vlc:item tid="41"/>
+		<vlc:item tid="42"/>
+		<vlc:item tid="43"/>
+		<vlc:item tid="44"/>
+		<vlc:item tid="45"/>
+		<vlc:item tid="46"/>
+		<vlc:item tid="47"/>
+		<vlc:item tid="48"/>
+		<vlc:item tid="49"/>
+		<vlc:item tid="50"/>
+		<vlc:item tid="51"/>
+		<vlc:item tid="52"/>
+		<vlc:item tid="53"/>
+		<vlc:item tid="54"/>
+		<vlc:item tid="55"/>
+		<vlc:item tid="56"/>
+		<vlc:item tid="57"/>
+		<vlc:item tid="58"/>
+		<vlc:item tid="59"/>
+		<vlc:item tid="60"/>
+		<vlc:item tid="61"/>
+		<vlc:item tid="62"/>
+		<vlc:item tid="63"/>
+		<vlc:item tid="64"/>
+		<vlc:item tid="65"/>
+		<vlc:item tid="66"/>
+		<vlc:item tid="67"/>
+		<vlc:item tid="68"/>
+		<vlc:item tid="69"/>
+		<vlc:item tid="70"/>
+		<vlc:item tid="71"/>
+		<vlc:item tid="72"/>
+		<vlc:item tid="73"/>
+		<vlc:item tid="74"/>
+		<vlc:item tid="75"/>
+		<vlc:item tid="76"/>
+		<vlc:item tid="77"/>
+		<vlc:item tid="78"/>
+		<vlc:item tid="79"/>
+		<vlc:item tid="80"/>
+		<vlc:item tid="81"/>
+		<vlc:item tid="82"/>
+		<vlc:item tid="83"/>
+		<vlc:item tid="84"/>
+		<vlc:item tid="85"/>
+		<vlc:item tid="86"/>
+		<vlc:item tid="87"/>
+		<vlc:item tid="88"/>
+		<vlc:item tid="89"/>
+		<vlc:item tid="90"/>
+		<vlc:item tid="91"/>
+		<vlc:item tid="92"/>
+		<vlc:item tid="93"/>
+		<vlc:item tid="94"/>
+		<vlc:item tid="95"/>
+		<vlc:item tid="96"/>
+		<vlc:item tid="97"/>
+		<vlc:item tid="98"/>
+		<vlc:item tid="99"/>
+		<vlc:item tid="100"/>
+		<vlc:item tid="101"/>
+		<vlc:item tid="102"/>
+		<vlc:item tid="103"/>
+		<vlc:item tid="104"/>
+		<vlc:item tid="105"/>
+		<vlc:item tid="106"/>
+		<vlc:item tid="107"/>
+		<vlc:item tid="108"/>
+		<vlc:item tid="109"/>
+		<vlc:item tid="110"/>
+		<vlc:item tid="111"/>
+		<vlc:item tid="112"/>
+		<vlc:item tid="113"/>
+		<vlc:item tid="114"/>
+		<vlc:item tid="115"/>
+		<vlc:item tid="116"/>
+		<vlc:item tid="117"/>
+		<vlc:item tid="118"/>
+		<vlc:item tid="119"/>
+		<vlc:item tid="120"/>
+		<vlc:item tid="121"/>
+		<vlc:item tid="122"/>
+		<vlc:item tid="123"/>
+		<vlc:item tid="124"/>
+		<vlc:item tid="125"/>
+		<vlc:item tid="126"/>
+		<vlc:item tid="127"/>
+		<vlc:item tid="128"/>
+		<vlc:item tid="129"/>
+		<vlc:item tid="130"/>
+		<vlc:item tid="131"/>
+		<vlc:item tid="132"/>
+		<vlc:item tid="133"/>
+		<vlc:item tid="134"/>
+		<vlc:item tid="135"/>
+		<vlc:item tid="136"/>
+		<vlc:item tid="137"/>
+		<vlc:item tid="138"/>
+		<vlc:item tid="139"/>
+		<vlc:item tid="140"/>
+		<vlc:item tid="141"/>
+		<vlc:item tid="142"/>
+		<vlc:item tid="143"/>
+		<vlc:item tid="144"/>
+		<vlc:item tid="145"/>
+		<vlc:item tid="146"/>
+		<vlc:item tid="147"/>
+		<vlc:item tid="148"/>
+		<vlc:item tid="149"/>
+		<vlc:item tid="150"/>
+		<vlc:item tid="151"/>
+		<vlc:item tid="152"/>
+		<vlc:item tid="153"/>
+		<vlc:item tid="154"/>
+	</extension>
+</playlist>

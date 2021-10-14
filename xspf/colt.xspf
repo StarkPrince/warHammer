@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Playlist</title>
+	<trackList>
+		<track>
+			<location>file:///E:/Courses/Colt/47.%20Express%20Router%20&amp;%20Cookies/1.%20What%20Matters%20In%20This%20Section.mp4</location>
+			<duration>139924</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/47.%20Express%20Router%20&amp;%20Cookies/2.%20Express%20Router%20Intro.mp4</location>
+			<duration>643518</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>1</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/47.%20Express%20Router%20&amp;%20Cookies/3.%20Express%20Router%20&amp;%20Middleware.mp4</location>
+			<duration>293222</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>2</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/47.%20Express%20Router%20&amp;%20Cookies/4.%20Introducing%20Cookies.mp4</location>
+			<duration>476497</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>3</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/47.%20Express%20Router%20&amp;%20Cookies/5.%20Sending%20Cookies.mp4</location>
+			<duration>402100</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>4</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/47.%20Express%20Router%20&amp;%20Cookies/6.%20Cookie%20Parser%20Middleware.mp4</location>
+			<duration>325428</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>5</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/47.%20Express%20Router%20&amp;%20Cookies/7.%20Signing%20Cookies.mp4</location>
+			<duration>611962</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>6</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/47.%20Express%20Router%20&amp;%20Cookies/8.%20OPTIONAL%20HMAC%20Signing.mp4</location>
+			<duration>386427</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>7</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/48.%20Express%20Session%20&amp;%20Flash/1.%20What%20Matters%20In%20This%20Section.mp4</location>
+			<duration>90326</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>8</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/48.%20Express%20Session%20&amp;%20Flash/2.%20Introduction%20to%20Sessions.mp4</location>
+			<duration>319925</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>9</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/48.%20Express%20Session%20&amp;%20Flash/3.%20Express%20Session.mp4</location>
+			<duration>699200</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>10</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/48.%20Express%20Session%20&amp;%20Flash/4.%20More%20Express%20Session.mp4</location>
+			<duration>471482</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>11</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/48.%20Express%20Session%20&amp;%20Flash/5.%20Intro%20to%20Flash.mp4</location>
+			<duration>402356</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>12</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/48.%20Express%20Session%20&amp;%20Flash/6.%20Res.locals%20&amp;%20Flash.mp4</location>
+			<duration>202664</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>13</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/49.%20YelpCamp%20Restructuring%20&amp;%20Flash/1.%20Breaking%20Out%20Campground%20Routes.mp4</location>
+			<duration>361117</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>14</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/49.%20YelpCamp%20Restructuring%20&amp;%20Flash/2.%20Breaking%20Out%20Review%20Routes.mp4</location>
+			<duration>334414</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>15</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/49.%20YelpCamp%20Restructuring%20&amp;%20Flash/3.%20Serving%20Static%20Assets.mp4</location>
+			<duration>347998</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>16</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/49.%20YelpCamp%20Restructuring%20&amp;%20Flash/4.%20Configuring%20Session.mp4</location>
+			<duration>408161</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>17</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/49.%20YelpCamp%20Restructuring%20&amp;%20Flash/5.%20Setting%20Up%20Flash.mp4</location>
+			<duration>322758</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>18</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/49.%20YelpCamp%20Restructuring%20&amp;%20Flash/6.%20Flash%20Success%20Partial.mp4</location>
+			<duration>423834</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>19</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/49.%20YelpCamp%20Restructuring%20&amp;%20Flash/7.%20Flash%20Errors%20Partial.mp4</location>
+			<duration>246457</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>20</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/50.%20Authentication%20From%20Scratch/1.%20What%20Matters%20In%20This%20Section.mp4</location>
+			<duration>274553</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>21</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/50.%20Authentication%20From%20Scratch/2.%20Authentication%20Vs.%20Authorization.mp4</location>
+			<duration>211186</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>22</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/50.%20Authentication%20From%20Scratch/3.%20How%20to%20(not)%20Store%20Passwords.mp4</location>
+			<duration>301953</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>23</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/50.%20Authentication%20From%20Scratch/4.%20Cryptographic%20Hashing%20Functions.mp4</location>
+			<duration>425135</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>24</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/50.%20Authentication%20From%20Scratch/5.%20Password%20Salts.mp4</location>
+			<duration>689796</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>25</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/50.%20Authentication%20From%20Scratch/6.%20Intro%20to%20Bcrypt.mp4</location>
+			<duration>781097</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>26</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/50.%20Authentication%20From%20Scratch/7.%20Auth%20Demo%20Setup.mp4</location>
+			<duration>445382</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>27</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/50.%20Authentication%20From%20Scratch/8.%20Auth%20Demo%20Registering.mp4</location>
+			<duration>374051</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>28</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/50.%20Authentication%20From%20Scratch/9.%20Auth%20Demo%20Login.mp4</location>
+			<duration>441087</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>29</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/50.%20Authentication%20From%20Scratch/10.%20Auth%20Demo%20Staying%20Logged%20In%20With%20Session.mp4</location>
+			<duration>452395</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>30</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/50.%20Authentication%20From%20Scratch/11.%20Auth%20Demo%20Logout.mp4</location>
+			<duration>358261</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>31</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/50.%20Authentication%20From%20Scratch/12.%20Auth%20Demo%20Require%20Login%20Middleware.mp4</location>
+			<duration>202687</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>32</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/50.%20Authentication%20From%20Scratch/13.%20Auth%20Demo%20Refactoring%20To%20Model%20Methods.mp4</location>
+			<duration>828396</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>33</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/51.%20YelpCamp%20Adding%20In%20Authentication/1.%20Introduction%20to%20Passport.mp4</location>
+			<duration>283818</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>34</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/51.%20YelpCamp%20Adding%20In%20Authentication/2.%20Creating%20Our%20User%20Model.mp4</location>
+			<duration>247850</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>35</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/51.%20YelpCamp%20Adding%20In%20Authentication/3.%20Configuring%20Passport.mp4</location>
+			<duration>555491</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>36</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/51.%20YelpCamp%20Adding%20In%20Authentication/4.%20Register%20Form.mp4</location>
+			<duration>421814</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>37</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/51.%20YelpCamp%20Adding%20In%20Authentication/5.%20Register%20Route%20Logic.mp4</location>
+			<duration>380529</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>38</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/51.%20YelpCamp%20Adding%20In%20Authentication/6.%20Login%20Routes.mp4</location>
+			<duration>340986</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>39</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/51.%20YelpCamp%20Adding%20In%20Authentication/7.%20isLoggedIn%20Middleware.mp4</location>
+			<duration>535847</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>40</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/51.%20YelpCamp%20Adding%20In%20Authentication/8.%20Adding%20Logout.mp4</location>
+			<duration>239630</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>41</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/51.%20YelpCamp%20Adding%20In%20Authentication/9.%20currentUser%20Helper.mp4</location>
+			<duration>294453</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>42</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/51.%20YelpCamp%20Adding%20In%20Authentication/10.%20Fixing%20Register%20Route.mp4</location>
+			<duration>222633</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>43</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/51.%20YelpCamp%20Adding%20In%20Authentication/11.%20ReturnTo%20Behavior.mp4</location>
+			<duration>292224</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>44</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/52.%20YelpCamp%20Basic%20Authorization/1.%20Adding%20an%20Author%20to%20Campground.mp4</location>
+			<duration>440831</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>45</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/52.%20YelpCamp%20Basic%20Authorization/2.%20Showing%20and%20Hiding%20EditDelete.mp4</location>
+			<duration>181418</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>46</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/52.%20YelpCamp%20Basic%20Authorization/3.%20Campground%20Permissions.mp4</location>
+			<duration>417983</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>47</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/52.%20YelpCamp%20Basic%20Authorization/4.%20Authorization%20Middleware.mp4</location>
+			<duration>522496</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>48</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/52.%20YelpCamp%20Basic%20Authorization/5.%20Reviews%20Permissions.mp4</location>
+			<duration>344422</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>49</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/52.%20YelpCamp%20Basic%20Authorization/6.%20More%20Reviews%20Authorization.mp4</location>
+			<duration>769533</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>50</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/53.%20YelpCamp%20Controllers%20&amp;%20Star%20Ratings/1.%20Refactoring%20To%20Campgrounds%20Controller.mp4</location>
+			<duration>590159</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>51</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/53.%20YelpCamp%20Controllers%20&amp;%20Star%20Ratings/2.%20Adding%20a%20Reviews%20Controller.mp4</location>
+			<duration>368524</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>52</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/53.%20YelpCamp%20Controllers%20&amp;%20Star%20Ratings/3.%20A%20Fancy%20Way%20To%20Restructure%20Routes.mp4</location>
+			<duration>357495</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>53</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/53.%20YelpCamp%20Controllers%20&amp;%20Star%20Ratings/4.%20Displaying%20Star%20Ratings.mp4</location>
+			<duration>481629</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>54</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/53.%20YelpCamp%20Controllers%20&amp;%20Star%20Ratings/5.%20Star%20Rating%20Form.mp4</location>
+			<duration>298934</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>55</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/54.%20YelpCamp%20Image%20Upload/1.%20Intro%20To%20Image%20Upload%20Process.mp4</location>
+			<duration>212022</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>56</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/54.%20YelpCamp%20Image%20Upload/2.%20The%20Multer%20Middleware.mp4</location>
+			<duration>598890</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>57</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/54.%20YelpCamp%20Image%20Upload/3.%20Cloudinary%20Registration.mp4</location>
+			<duration>154367</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>58</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/54.%20YelpCamp%20Image%20Upload/4.%20Environment%20Variables%20with%20dotenv.mp4</location>
+			<duration>381667</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>59</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/54.%20YelpCamp%20Image%20Upload/5.%20Uploading%20To%20Cloudinary%20Basics.mp4</location>
+			<duration>541351</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>60</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/54.%20YelpCamp%20Image%20Upload/6.%20Storing%20Uploaded%20Image%20Links%20In%20Mongo.mp4</location>
+			<duration>689169</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>61</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/54.%20YelpCamp%20Image%20Upload/7.%20Displaying%20Images%20In%20A%20Carousel.mp4</location>
+			<duration>519268</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>62</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/54.%20YelpCamp%20Image%20Upload/8.%20Fixing%20Our%20Seeds.mp4</location>
+			<duration>163817</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>63</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/54.%20YelpCamp%20Image%20Upload/9.%20Adding%20Upload%20to%20Edit%20Page.mp4</location>
+			<duration>359236</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>64</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/54.%20YelpCamp%20Image%20Upload/10.%20Customizing%20File%20Input.mp4</location>
+			<duration>521335</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>65</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/54.%20YelpCamp%20Image%20Upload/11.%20A%20Word%20Of%20Warning!.mp4</location>
+			<duration>170481</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>66</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/54.%20YelpCamp%20Image%20Upload/12.%20Deleting%20Images%20Form.mp4</location>
+			<duration>410947</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>67</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/54.%20YelpCamp%20Image%20Upload/13.%20Deleting%20Images%20Backend.mp4</location>
+			<duration>368385</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>68</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/54.%20YelpCamp%20Image%20Upload/14.%20Adding%20a%20Thumbnail%20Virtual%20Property.srt</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>69</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/55.%20YelpCamp%20Adding%20Maps/1.%20Registering%20For%20Mapbox.mp4</location>
+			<duration>276086</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>70</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/55.%20YelpCamp%20Adding%20Maps/2.%20Geocoding%20Our%20Locations.mp4</location>
+			<duration>651251</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>71</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/55.%20YelpCamp%20Adding%20Maps/3.%20Working%20With%20GeoJSON.mp4</location>
+			<duration>387727</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>72</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/55.%20YelpCamp%20Adding%20Maps/4.%20Displaying%20A%20Map.mp4</location>
+			<duration>491265</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>73</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/55.%20YelpCamp%20Adding%20Maps/5.%20Centering%20The%20Map%20On%20A%20Campground.mp4</location>
+			<duration>491149</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>74</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/55.%20YelpCamp%20Adding%20Maps/6.%20Fixing%20Our%20Seeds%20Bug.mp4</location>
+			<duration>377162</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>75</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/55.%20YelpCamp%20Adding%20Maps/7.%20Customizing%20Map%20Popup.mp4</location>
+			<duration>261480</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>76</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/56.%20YelpCamp%20Fancy%20Cluster%20Map/1.%20Intro%20To%20Our%20Cluster%20Map.mp4</location>
+			<duration>153856</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>77</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/56.%20YelpCamp%20Fancy%20Cluster%20Map/2.%20Adding%20Earthquake%20Cluster%20Map.mp4</location>
+			<duration>348764</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>78</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/56.%20YelpCamp%20Fancy%20Cluster%20Map/3.%20Reseeding%20Our%20Database%20(again).mp4</location>
+			<duration>162215</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>79</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/56.%20YelpCamp%20Fancy%20Cluster%20Map/4.%20Basic%20Clustering%20Campgrounds.mp4</location>
+			<duration>449492</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>80</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/56.%20YelpCamp%20Fancy%20Cluster%20Map/5.%20Tweaking%20Clustering%20Code.mp4</location>
+			<duration>423463</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>81</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/56.%20YelpCamp%20Fancy%20Cluster%20Map/6.%20Changing%20Cluster%20Size%20and%20Color.mp4</location>
+			<duration>431892</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>82</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/56.%20YelpCamp%20Fancy%20Cluster%20Map/7.%20Adding%20Custom%20Popups.mp4</location>
+			<duration>939550</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>83</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/57.%20YelpCamp%20Styles%20Clean%20Up/1.%20Styling%20Home%20Page.mp4</location>
+			<duration>561854</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>84</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/57.%20YelpCamp%20Styles%20Clean%20Up/2.%20Additional%20Home%20Page%20Styling.mp4</location>
+			<duration>390932</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>85</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/57.%20YelpCamp%20Styles%20Clean%20Up/3.%20Styling%20Login%20Form.mp4</location>
+			<duration>228160</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>86</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/57.%20YelpCamp%20Styles%20Clean%20Up/4.%20Styling%20Register%20Form.mp4</location>
+			<duration>221333</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>87</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/57.%20YelpCamp%20Styles%20Clean%20Up/5.%20Spacing%20Campgrounds.mp4</location>
+			<duration>28886</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>88</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/57.%20YelpCamp%20Styles%20Clean%20Up/6.%20Removing%20Inline%20Map%20Styles.mp4</location>
+			<duration>174127</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>89</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/57.%20YelpCamp%20Styles%20Clean%20Up/7.%20Adding%20Map%20Controls.mp4</location>
+			<duration>194189</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>90</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/58.%20YelpCamp%20Common%20Security%20Issues/1.%20Mongo%20Injection.mp4</location>
+			<duration>466280</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>91</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/58.%20YelpCamp%20Common%20Security%20Issues/2.%20Cross%20Site%20Scripting%20(XSS).mp4</location>
+			<duration>359654</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>92</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/58.%20YelpCamp%20Common%20Security%20Issues/3.%20Sanitizing%20HTML%20w%20JOI.mp4</location>
+			<duration>687265</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>93</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/58.%20YelpCamp%20Common%20Security%20Issues/4.%20Minor%20Changes%20to%20SessionCookies.mp4</location>
+			<duration>206681</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>94</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/58.%20YelpCamp%20Common%20Security%20Issues/5.%20Hiding%20Errors.mp4</location>
+			<duration>137857</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>95</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/58.%20YelpCamp%20Common%20Security%20Issues/6.%20Using%20Helmet.mp4</location>
+			<duration>336086</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>96</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/58.%20YelpCamp%20Common%20Security%20Issues/7.%20Content%20Security%20Policy%20Fun.mp4</location>
+			<duration>505035</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>97</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/59.%20YelpCamp%20Deploying/1.%20Setting%20Up%20Mongo%20Atlas.mp4</location>
+			<duration>593665</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>98</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/59.%20YelpCamp%20Deploying/2.%20Using%20Mongo%20For%20Our%20Session%20Store.mp4</location>
+			<duration>419330</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>99</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/59.%20YelpCamp%20Deploying/3.%20Heroku%20Setup.mp4</location>
+			<duration>222448</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>100</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/59.%20YelpCamp%20Deploying/4.%20Pushing%20to%20Heroku.mp4</location>
+			<duration>334020</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>101</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/59.%20YelpCamp%20Deploying/5.%20Fixing%20Heroku%20Errors.mp4</location>
+			<duration>276620</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>102</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///E:/Courses/Colt/59.%20YelpCamp%20Deploying/6.%20Configuring%20Heroku%20Env%20Variables.mp4</location>
+			<duration>404167</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>103</vlc:id>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:item tid="0"/>
+		<vlc:item tid="1"/>
+		<vlc:item tid="2"/>
+		<vlc:item tid="3"/>
+		<vlc:item tid="4"/>
+		<vlc:item tid="5"/>
+		<vlc:item tid="6"/>
+		<vlc:item tid="7"/>
+		<vlc:item tid="8"/>
+		<vlc:item tid="9"/>
+		<vlc:item tid="10"/>
+		<vlc:item tid="11"/>
+		<vlc:item tid="12"/>
+		<vlc:item tid="13"/>
+		<vlc:item tid="14"/>
+		<vlc:item tid="15"/>
+		<vlc:item tid="16"/>
+		<vlc:item tid="17"/>
+		<vlc:item tid="18"/>
+		<vlc:item tid="19"/>
+		<vlc:item tid="20"/>
+		<vlc:item tid="21"/>
+		<vlc:item tid="22"/>
+		<vlc:item tid="23"/>
+		<vlc:item tid="24"/>
+		<vlc:item tid="25"/>
+		<vlc:item tid="26"/>
+		<vlc:item tid="27"/>
+		<vlc:item tid="28"/>
+		<vlc:item tid="29"/>
+		<vlc:item tid="30"/>
+		<vlc:item tid="31"/>
+		<vlc:item tid="32"/>
+		<vlc:item tid="33"/>
+		<vlc:item tid="34"/>
+		<vlc:item tid="35"/>
+		<vlc:item tid="36"/>
+		<vlc:item tid="37"/>
+		<vlc:item tid="38"/>
+		<vlc:item tid="39"/>
+		<vlc:item tid="40"/>
+		<vlc:item tid="41"/>
+		<vlc:item tid="42"/>
+		<vlc:item tid="43"/>
+		<vlc:item tid="44"/>
+		<vlc:item tid="45"/>
+		<vlc:item tid="46"/>
+		<vlc:item tid="47"/>
+		<vlc:item tid="48"/>
+		<vlc:item tid="49"/>
+		<vlc:item tid="50"/>
+		<vlc:item tid="51"/>
+		<vlc:item tid="52"/>
+		<vlc:item tid="53"/>
+		<vlc:item tid="54"/>
+		<vlc:item tid="55"/>
+		<vlc:item tid="56"/>
+		<vlc:item tid="57"/>
+		<vlc:item tid="58"/>
+		<vlc:item tid="59"/>
+		<vlc:item tid="60"/>
+		<vlc:item tid="61"/>
+		<vlc:item tid="62"/>
+		<vlc:item tid="63"/>
+		<vlc:item tid="64"/>
+		<vlc:item tid="65"/>
+		<vlc:item tid="66"/>
+		<vlc:item tid="67"/>
+		<vlc:item tid="68"/>
+		<vlc:item tid="69"/>
+		<vlc:item tid="70"/>
+		<vlc:item tid="71"/>
+		<vlc:item tid="72"/>
+		<vlc:item tid="73"/>
+		<vlc:item tid="74"/>
+		<vlc:item tid="75"/>
+		<vlc:item tid="76"/>
+		<vlc:item tid="77"/>
+		<vlc:item tid="78"/>
+		<vlc:item tid="79"/>
+		<vlc:item tid="80"/>
+		<vlc:item tid="81"/>
+		<vlc:item tid="82"/>
+		<vlc:item tid="83"/>
+		<vlc:item tid="84"/>
+		<vlc:item tid="85"/>
+		<vlc:item tid="86"/>
+		<vlc:item tid="87"/>
+		<vlc:item tid="88"/>
+		<vlc:item tid="89"/>
+		<vlc:item tid="90"/>
+		<vlc:item tid="91"/>
+		<vlc:item tid="92"/>
+		<vlc:item tid="93"/>
+		<vlc:item tid="94"/>
+		<vlc:item tid="95"/>
+		<vlc:item tid="96"/>
+		<vlc:item tid="97"/>
+		<vlc:item tid="98"/>
+		<vlc:item tid="99"/>
+		<vlc:item tid="100"/>
+		<vlc:item tid="101"/>
+		<vlc:item tid="102"/>
+		<vlc:item tid="103"/>
+	</extension>
+</playlist>

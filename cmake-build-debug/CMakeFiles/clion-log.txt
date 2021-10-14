@@ -1,0 +1,1 @@
+MinGW not found at:  Configure Disable profile
