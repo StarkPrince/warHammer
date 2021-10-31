@@ -1,6 +1,99 @@
+aasignment-> schematic about roll crusher
+
+
+
 screening/sieving (moisture is not desired)
 what is it:
     separating the mixture into two or more fractions which are more  uniform in particle size than
     the orignal mixture
 how is this done
     (chalni)  a cylindrical vessel with equal size hole at the base
+why?
+    to remove coarse particle for further size reduction
+    to remove fine particle from crusher feed to save power by preventing them from overgrinding
+    to grade the coarse particles into their commercial size
+    to perform a step in the concentration of the product
+1.stratification (inclined planes, rotating and surface movement are needed)
+2.separation probability (difference between the size of the particle and the siever)
+sieve shaker -> horizontal movement
+
+material balance
+effectiveness is the product of recovery and rejection.
+    recovery is the amount of desired material over all the material passed down.
+
+
+xd,xf,xb =  mass fractions of desired material in the product, feed and reject
+1-xd,1-xf,1-xb = mass fractions of undesired material in the product, feed and reject
+
+
+recovery = amount of desired material in product/ amount of desired material in the feed
+           xd/xf
+rejection = amount of undesired material in the reject/ amount of undesired material in the feed
+           1-xd/1-xf
+
+
+Screen effectiveness
+how close is it seaparating the particles   
+
+
+grizzlies:
+    the effieciency is inversely proportional to capacity of the grizzlies
+    usually used to separate particle of size 20-300mm and more
+    less cost
+    simple design
+    no power requirement
+    not that effective
+
+application-
+    in separation of undersize from the feed to primary crusher
+
+a.gyration in horizontal plane
+b.gyration in vertical plane
+c.gyration at one end, shaking at other
+d.shaking
+e.mechanically vibrated
+f.electronically vibrated
+
+accicular->needle shaped one
+flakey-> flat, just 2d
+
+plastic forming
+    jollying
+    jiggering
+    extrusion
+
+m* = mass flow rate
+
+ritinger's law
+    the work done is proportional to the new surface area created
+    P/m* = kR(1/Dsb-1/Dsa)
+    P = pressure
+    m* = mass flow rate
+kick's law
+    the work done is for a mass is constant for same reduction ratio
+    p/m* = kKln(Dsa/Dsb)
+bond crushing law
+    the work done to perpare particles of size Dp from a very large size is
+    proportional to surface to volume ratio
+    p/m* = Kb/(Dp)**0.5
+
+Jaw crushers:
+    dodge -> upper part movable
+    blake -> lower part movable
+    denver -> both parts movable
+the total theoritical capacity of double roll crusher is
+    60*pie*D1*D3*Np*b
+    b = breadth of roll face
+cos(An/2) = (D1+D3)/(D1+D2)
+
+the theoritical capacity of jaw crusher is:
+    60*row(p)*A*Wj*Nj*(1-e) kg/hole
+    row(p) = density of the material
+    A = area of the swing
+    Wj = width of the jaw
+    Nj = number of swings per minute
+    e = porosity of the material    
+
+
+
+
