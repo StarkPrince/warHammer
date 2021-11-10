@@ -22,31 +22,31 @@ typedef long long ll;
     freopen("input.txt", "r", stdin); \
     freopen("output.txt", "w", stdout);
 #define mod 1e9 + 7;
+#define all(x) (x).begin(), (x).end()
 const int N = 105;
 const int MOD = 1e9 + 9;
 
+
 int main()
 {
-    int N, K;
-    cin >> N >> K;
-    set<vector<int>> vecs;
-    int ans = 0;
-    while (N--)
+    string a;
+    cin >> a;
+    vector<ll> dp(26, 1e6);
+    for (int i = 0; i < 26; i++)
     {
-        string S;
-        cin >> S;
-        vector<int> cur(K);
-        for (int i = 0; i < K; i++)
-            cur[i] = S[i] / 3 % 3;
-        for (const auto &v : vecs)
-        {
-            vector<int> cnd(K);
-            for (int i = 0; i < K; i++)
-                cnd[i] = (6 - cur[i] - v[i]) % 3;
-            if (vecs.count(cnd))
-                ans++;
-        }
-        vecs.insert(cur);
+        ll li = -1, md = 0;
+        for (int j = 0; j < a.size(); j++)
+            if (a[j] == i + 'a')
+            {
+                md = max(md, j - li);
+                li = j;
+            }
+        ll nm = a.size() - li;
+        if (md != 0)
+            dp[i] = max(md, nm);
     }
-    cout << ans / 2 << '\n';
+    ll ans = 1e6;
+    for (int i = 0; i < 26; i++)
+        ans = min(ans, dp[i]);
+    cout << (ans == 1e6 ? a.size() / 2 + 1 : ans) << endl;
 }

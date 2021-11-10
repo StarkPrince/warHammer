@@ -34,10 +34,4 @@ int main()
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
 #endif
-    int n;
-    cin >> n;
-    vector<vector<int>> v(n, vector<int>(n));
-    for (int i = 0; i < n; i++)
-        cin >> v[i][0] >> v[i][1];
-    cout << minTrioDegree(n, v);
 }
