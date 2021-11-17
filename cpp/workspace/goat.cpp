@@ -26,27 +26,14 @@ typedef long long ll;
 const int N = 105;
 const int MOD = 1e9 + 9;
 
-
 int main()
 {
-    string a;
-    cin >> a;
-    vector<ll> dp(26, 1e6);
-    for (int i = 0; i < 26; i++)
-    {
-        ll li = -1, md = 0;
-        for (int j = 0; j < a.size(); j++)
-            if (a[j] == i + 'a')
-            {
-                md = max(md, j - li);
-                li = j;
-            }
-        ll nm = a.size() - li;
-        if (md != 0)
-            dp[i] = max(md, nm);
-    }
-    ll ans = 1e6;
-    for (int i = 0; i < 26; i++)
-        ans = min(ans, dp[i]);
-    cout << (ans == 1e6 ? a.size() / 2 + 1 : ans) << endl;
+    ll n;
+    cin >> n;
+    ll ans = 0;
+    ll zero = 0;
+    for (ll i = 1; i * i * i <= n; i++)
+        for (ll j = i; j <= n / i; j++)
+            ans += max((n / (i * j)) - (j - 1), zero);
+    cout << ans << endl;
 }

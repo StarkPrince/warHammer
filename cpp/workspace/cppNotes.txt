@@ -24,3 +24,59 @@ ll binarySearch(vector<ll> arr, ll init, ll finl, ll toFind)
 //sort(a.begin(), a.end(), greater<int>());(vector sorted in decreasing order)
 
 #define ALL(x) (x).begin(), x.end()
+
+
+
+//bitmasking
+1.count no of set-bits(1) in a number
+
+while(n)
+{
+    count++;
+    n = n&(n-1);
+}
+
+2.check if kth bit is set or not
+
+//method 1
+result = (n & (1 << (k-1)))!=0;
+//method 2
+result = (1 & (n >> (k-1)))==1;
+
+3.unset the rightmost set bit
+n&(n-1)
+
+4.how to check if it is a power of 2
+if n&(n-1)==0
+
+//xor operator:
+x^0 = x
+x^x = 0
+x^y = y^x
+x^(y^z) = (x^y)^z
+
+5.get the rightmost set bit:
+x&~(x-1)
+
+//prime number efficient method
+bool isPrime(int n){
+    if (n==1) return false;
+    if (n==2 || n==3) return true;
+    if (n%2==0 || n%3==0)
+        return false;
+    for (int i=5;i*i<=n;i=i+6){
+        if(n%i==0 || n%(i+2)==0)
+            return false;
+    }
+}
+
+
+def greycode_to_binary(n):
+    res = 0
+    while n > 0:
+        res ^= n
+        n >>= 1
+    return res
+
+
+print(greycode_to_binary(9))
