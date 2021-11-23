@@ -28,12 +28,25 @@ const int MOD = 1e9 + 9;
 
 int main()
 {
-    ll n;
-    cin >> n;
-    ll ans = 0;
-    ll zero = 0;
-    for (ll i = 1; i * i * i <= n; i++)
-        for (ll j = i; j <= n / i; j++)
-            ans += max((n / (i * j)) - (j - 1), zero);
-    cout << ans << endl;
+    ll n, q;
+    cin >> n >> q;
+    vector<ll> a(n);
+    cinv(a, n);
+    map<ll, ll> d;
+    for (auto i : a)
+        d[i]++;
+    for (int i = 0; i < q; i++)
+    {
+        ll x;
+        cin >> x;
+        ll ans = 0;
+        for (int j = 31; j >= 0; j--)
+        {
+            ll t = 1LL << j;
+            ll wl = min(x / t, d[t]);
+            ans += wl;
+            x -= wl * t;
+        }
+        cout << (x == 0 ? ans : -1) << nl;
+    }
 }
