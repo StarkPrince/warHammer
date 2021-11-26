@@ -7,46 +7,86 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-typedef long long ll;
-#define inf 0x3f3f3f3f
-#define mem(a, x) memset(a, x, sizeof(a))
+///////////////////////////////////////////////////
+/*
+██████╗░██████╗░██╗███╗░░██╗░█████╗░███████╗  ██████╗░░█████╗░░░░░░██╗
+██╔══██╗██╔══██╗██║████╗░██║██╔══██╗██╔════╝  ██╔══██╗██╔══██╗░░░░░██║
+██████╔╝██████╔╝██║██╔██╗██║██║░░╚═╝█████╗░░  ██████╔╝███████║░░░░░██║
+██╔═══╝░██╔══██╗██║██║╚████║██║░░██╗██╔══╝░░  ██╔══██╗██╔══██║██╗░░██║
+██║░░░░░██║░░██║██║██║░╚███║╚█████╔╝███████╗  ██║░░██║██║░░██║╚█████╔╝
+╚═╝░░░░░╚═╝░░╚═╝╚═╝╚═╝░░╚══╝░╚════╝░╚══════╝  ╚═╝░░╚═╝╚═╝░░╚═╝░╚════╝░
+*/
+//////////////////////////////////////////////////
 #define pv(v)             \
     for (auto i : v)      \
         cout << i << " "; \
     cout << endl;
+
 #define cinv(v, n)              \
     for (int i = 0; i < n; i++) \
         cin >> v[i];
-#define nl "\n"
+
 #define inout                         \
     freopen("input.txt", "r", stdin); \
     freopen("output.txt", "w", stdout);
-#define mod 1e9 + 7;
-#define all(x) (x).begin(), (x).end()
-const int N = 105;
-const int MOD = 1e9 + 9;
 
-int main()
+///////////////////////////////////////////////////
+
+typedef long long ll;
+#define int long long
+#define MOD 1000000007
+#define inf 0x3f3f3f3f
+#define minf -0x3f3f3f3f
+
+///////////////////////////////////////////////////
+#define ff first
+#define ss second
+#define pll pair<ll, ll>
+#define in insert
+#define mp map<int, int>
+#define ar array
+#define mem(a, t) memset(a, t, sizeof(a))
+#define endl "\n"
+#define print(x) cout << x << endl
+
+///////////////////////////////////////////////////
+#define V vector
+#define vl vector<ll>
+#define vvl vector<vl>
+#define vpll vector<pair<ll, ll>>
+#define pb push_back
+#define Pb pop_back
+#define be() begin()
+#define en() end()
+#define lb lower_bound
+#define ub upper_bound
+#define all(v) v.begin(), v.end()
+#define len(p) (ll) p.size()
+
+///////////////////////////////////////////////////
+#define f(i, yha, wha) for (ll i = yha; i < wha; i++)
+#define rf(i, wha, yha) for (ll i = wha; i >= yha; i--)
+#define f0(n) for (ll i = 0; i < n; i++)
+#define f1(n) for (ll i = 1; i <= n; i++)
+#define fg(i, yha, wha, gap) for (ll i = yha; i < wha; i += gap)
+
+///////////////////////////////////////////////////
+
+void solve()
 {
-    ll n, q;
-    cin >> n >> q;
-    vector<ll> a(n);
-    cinv(a, n);
-    map<ll, ll> d;
-    for (auto i : a)
-        d[i]++;
-    for (int i = 0; i < q; i++)
+    int n;
+    cin >> n;
+    f(i, 0, n)
     {
-        ll x;
-        cin >> x;
-        ll ans = 0;
-        for (int j = 31; j >= 0; j--)
-        {
-            ll t = 1LL << j;
-            ll wl = min(x / t, d[t]);
-            ans += wl;
-            x -= wl * t;
-        }
-        cout << (x == 0 ? ans : -1) << nl;
+        print(i);
     }
+}
+int32_t main()
+{
+    int t;
+    t = 1;
+    cin >> t;
+    while (t--)
+        solve();
+    return 0;
 }

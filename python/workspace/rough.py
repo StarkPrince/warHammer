@@ -1,14 +1,23 @@
-n, q = [int(x) for x in input().split()]
-a = [int(x) for x in input().split()]
-d = {2 ** i: 0 for i in range(32)}
-for i in a:
-    d[i] += 1
-for _ in range(q):
-    x = int(input())
-    ans = 0
-    for j in range(31, -1, -1):
-        t = 2 ** j
-        wl = min(x // t, d[t])
-        ans += wl
-        x -= wl * t
-    print(ans if x == 0 else -1)
+from collections import deque
+
+for _ in range(int(input())):
+    n = int(input())
+    t = [int(x) for x in input().split()]
+    a = deque(t)
+    ans = deque()
+    while len(a) > 0:
+        if a[0] > a[-1]:
+            ans.appendleft(a.popleft())
+        else:
+            ans.append(a.pop())
+    rans = ans.copy()
+    tans = deque()
+    while len(ans) > 1:
+        if ans[0] < ans[-1]:
+            tans.appendleft(ans.popleft())
+        else:
+            tans.append(ans.pop())
+    if ans + tans == deque(t) or tans + ans == deque(t):
+        print(*rans)
+    else:
+        print(-1)
