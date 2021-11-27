@@ -34,7 +34,7 @@ using namespace std;
 
 typedef long long ll;
 #define int long long
-#define MOD 1000000007
+#define mod 1000000007
 #define inf 0x3f3f3f3f
 #define minf -0x3f3f3f3f
 
@@ -72,14 +72,36 @@ typedef long long ll;
 
 ///////////////////////////////////////////////////
 
+int mpow(int a, int b)
+{
+    int ans = 1;
+    while (b)
+    {
+        if (b & 1)
+            ans = (ans * a) % mod;
+        a = (a * a) % mod;
+        b >>= 1;
+    }
+    return ans;
+}
+//////////////////////////////////////////////////
 void solve()
 {
-    int n;
-    cin >> n;
-    f(i, 0, n)
+    ll n, m;
+    cin >> n >> m;
+    vvl a;
+    f(i, 0, m)
     {
-        print(i);
+        ll l, r, x;
+        cin >> l >> r >> x;
+        a.pb({l, r, x});
     }
+    ll sm = 0;
+    f(i, 0, m) sm |= a[i][2];
+    ll ans = mpow(2, n - 1);
+    ans *= sm;
+    ans %= mod;
+    print(ans);
 }
 int32_t main()
 {
