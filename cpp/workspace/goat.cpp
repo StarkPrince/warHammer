@@ -78,7 +78,7 @@ int mpow(int a, int b)
     while (b)
     {
         if (b & 1)
-            ans = (ans * a) % mod;
+            ans = (ans * a);
         a = (a * a) % mod;
         b >>= 1;
     }
@@ -87,24 +87,13 @@ int mpow(int a, int b)
 //////////////////////////////////////////////////
 void solve()
 {
-    ll n, m;
-    cin >> n >> m;
-    vvl a;
-    f(i, 0, m)
-    {
-        ll l, r, x;
-        cin >> l >> r >> x;
-        a.pb({l, r, x});
-    }
-    ll sm = 0;
-    f(i, 0, m) sm |= a[i][2];
-    ll ans = mpow(2, n - 1);
-    ans *= sm;
-    ans %= mod;
-    print(ans);
+    int n;
+    cin >> n;
+    print(n * n);
 }
 int32_t main()
 {
+    inout;
     int t;
     t = 1;
     cin >> t;
