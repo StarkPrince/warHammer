@@ -87,9 +87,22 @@ int mpow(int a, int b)
 //////////////////////////////////////////////////
 void solve()
 {
-    int n;
-    cin >> n;
-    print(n * n);
+    ll n, l, m;
+    cin >> n >> l >> m;
+    if (n < l)
+        swap(n, l);
+    bool fn = false;
+    while (l > 0)
+    {
+        if (n >= m && (n - m) % l == 0)
+        {
+            fn = true;
+            break;
+        }
+        n %= l;
+        swap(n, l);
+    }
+    cout << (fn ? "YES\n" : "NO\n");
 }
 int32_t main()
 {
