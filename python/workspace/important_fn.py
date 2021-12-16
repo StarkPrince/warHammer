@@ -132,3 +132,22 @@ from math import comb
 comb(b,i)
 
 round(a,3)
+
+def primeFactors(n):
+    s = {}
+    while n % 2 == 0:
+        if 2 not in s:
+            s[2] = 0
+        s[2] += 1
+        n //= 2
+    for i in range(3, int(math.sqrt(n))+1, 2):
+        while n % i == 0:
+            if i not in s:
+                s[i] = 0
+            s[i] += 1
+            n //= i
+    if n > 2:
+        if n not in s:
+            s[n] = 0
+        s[n] += 1
+    return s
