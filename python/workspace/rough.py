@@ -1,33 +1,27 @@
-# #include <bits/stdc++.h>
+def solve():
+    n, k, z = map(int, input().split())
+    a = list(map(int, input().split()))
+    p = [a[0]]
+    for i in range(1, n):
+        p.append(p[-1] + a[i])
+    ans = 0
+    m = [0]
+    for i in range(1, n):
+        m.append(max(m[-1], a[i]+a[i-1]))
+    for i in range(1, k+1):
+        if i % 2 != k % 2:
+            j = 0
+            while j < z and i + 2*j + 1 <= k:
+                j += 1
+                ans = max(ans, p[i] + m[i]*j + a[i-1])
+        else:
+            j = 0
+            while j <= z and i + 2*j <= k:
+                j += 1
+                ans = max(ans, p[i] + m[i]*j)
+    print(ans)
 
-# using namespace std;
 
-# int main() {
-#   ios::sync_with_stdio(false);
-#   cin.tie(0);
-#   int tt;
-#   cin >> tt;
-#   while (tt--) {
-#     long long x, y;
-#     cin >> x >> y;
-#     if (y < x) {
-#       cout << y + x << '\n';
-#       continue;
-#     }
-#     if (y == x) {
-#       cout << x << '\n';
-#       continue;
-#     }
-#     cout << y - y % x / 2 << '\n';
-#   }
-#   return 0;
-# }
-
-for _ in range(int(input())):
-    x, y = map(int, input().split())
-    if y < x:
-        print(y + x)
-    elif y == x:
-        print(x)
-    else:
-        print(y - y % x // 2)
+if __name__ == '__main__':
+    for _ in range(int(input())):
+        solve()
