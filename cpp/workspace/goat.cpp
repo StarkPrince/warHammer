@@ -72,40 +72,86 @@ typedef long long ll;
 
 ///////////////////////////////////////////////////
 
+// void solve()
+// {
+//     int n, k, z, ans = 0;
+//     cin >> n >> k >> z;
+//     int a[n];
+//     for (int i = 0; i < n; ++i)
+//         cin >> a[i];
+//     int p[n];
+//     p[0] = a[0];
+//     for (int i = 1; i < n; ++i)
+//         p[i] = p[i - 1] + a[i];
+//     int m[n];
+//     m[0] = 0;
+//     for (int i = 1; i < n; ++i)
+//         m[i] = max(m[i - 1], a[i] + a[i - 1]);
+//     for (int i = 1; i <= k; ++i)
+//     {
+//         if ((i % 2) != (k % 2))
+//             for (int j = 0; j < z && i + 2 * j + 1 <= k; ++j)
+//                 ans = max(ans, p[i] + m[i] * j + a[i - 1]);
+//         else
+//             for (int j = 0; j <= z && i + 2 * j <= k; ++j)
+//                 ans = max(ans, p[i] + m[i] * j);
+//     }
+//     cout << ans << "\n";
+// }
+
 void solve()
 {
-    int n, k, z, ans = 0;
-    cin >> n >> k >> z;
-    int a[n];
-    for (int i = 0; i < n; ++i)
-        cin >> a[i];
-    int p[n];
-    p[0] = a[0];
-    for (int i = 1; i < n; ++i)
-        p[i] = p[i - 1] + a[i];
-    int m[n];
-    m[0] = 0;
-    for (int i = 1; i < n; ++i)
-        m[i] = max(m[i - 1], a[i] + a[i - 1]);
-    for (int i = 1; i <= k; ++i)
+    ll n, q;
+    cin >> n;
+    vl a(n);
+    cinv(a, n);
+    cin >> q;
+    vl payoff(q + 1);
+    map<ll, pair<ll, ll>> d;
+    for (int i = 1; i <= q; ++i)
     {
-        if ((i % 2) != (k % 2))
-            for (int j = 0; j < z && i + 2 * j + 1 <= k; ++j)
-                ans = max(ans, p[i] + m[i] * j + a[i - 1]);
+        ll q;
+        cin >> q;
+        if (q == 2)
+        {
+            ll x;
+            1 cin >> x;
+            payoff[i] = x;
+        }
         else
-            for (int j = 0; j <= z && i + 2 * j <= k; ++j)
-                ans = max(ans, p[i] + m[i] * j);
+        {
+            ll x, y;
+            cin >> x >> y;
+            d[x] = {i, y};
+            payoff[i] = 0;
+        }
     }
-    cout << ans << "\n";
+    ll max_payoff = *max_element(payoff.begin(), payoff.end());
+    vl revmax(q + 1);
+    revmax[q - 1] = payoff[q - 1];
+    for (int i = q - 2; i >= 0; i--)
+        revmax[i] = max(revmax[i + 1], payoff[i]);
+
+    for (int i = 0; i < n; ++i)
+    {
+        if (d.find(i + 1) == d.end())
+            cout << max(max_payoff, a[i]) << " ";
+        else
+        {
+            ll idx, val;
+            tie(idx, val) = d[i + 1];
+            cout << max(revmax[idx], val) << " ";
+        }
+    }
 }
 
 int32_t main()
 {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
-    int n;
-    cin >> n;
-    while (n--)
+    int tc = 1;
+    // cin >> n;
+    while (tc--)
         solve();
     return 0;
 }

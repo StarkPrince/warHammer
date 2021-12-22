@@ -71,6 +71,34 @@ typedef long long ll;
 #define fg(i, yha, wha, gap) for (ll i = yha; i < wha; i += gap)
 
 ///////////////////////////////////////////////////
+void buildTree(int *arr, int *tree, int start, int end, int treeNode)
+{
+    if (start == end)
+    {
+        tree[treeNode] = arr[start];
+        return;
+    }
+    int mid = (start + end) / 2;
+    buildTree(arr, tree, start, mid, 2 * treeNode);
+    buildTree(arr, tree, mid + 1, end, 2 * treeNode + 1);
+    tree[treeNode] = tree[2 * treeNode] + tree[2 * treeNode + 1];
+}
+
+void updateTree(int *arr, int *tree, int start, int end, int treeNode, int index, int value)
+{
+    if (start == end)
+    {
+        arr[index] = value;
+        tree[treeNode] = value;
+        return;
+    }
+    int mid = (start + end) / 2;
+    if (index <= mid)
+        updateTree(arr, tree, start, mid, 2 * treeNode, index, value);
+    else
+        updateTree(arr, tree, mid + 1, end, 2 * treeNode + 1, index, value);
+    tree[treeNode] = tree[2 * treeNode] + tree[2 * treeNode + 1];
+}
 
 int32_t main()
 {
@@ -78,9 +106,10 @@ int32_t main()
     cin.tie(0);
     int n;
     cin >> n;
-    while (n--)
-        solve();
-    return 0;
+    // while (n--)
+    //     solve();
+    // return 0;
+    cout << n * n;
 }
 
 // react native hooks course
