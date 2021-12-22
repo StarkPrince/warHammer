@@ -1,27 +1,16 @@
-def solve():
-    n, k, z = map(int, input().split())
-    a = list(map(int, input().split()))
-    p = [a[0]]
-    for i in range(1, n):
-        p.append(p[-1] + a[i])
+vowels = {'a', 'e', 'i', 'o', 'u'}
+consonants = {'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l',
+              'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z'}
+
+for _ in range(int(input())):
+    n = int(input())
+    s = input()
+    p = input()
     ans = 0
-    m = [0]
-    for i in range(1, n):
-        m.append(max(m[-1], a[i]+a[i-1]))
-    for i in range(1, k+1):
-        if i % 2 != k % 2:
-            j = 0
-            while j < z and i + 2*j + 1 <= k:
-                j += 1
-                ans = max(ans, p[i] + m[i]*j + a[i-1])
-        else:
-            j = 0
-            while j <= z and i + 2*j <= k:
-                j += 1
-                ans = max(ans, p[i] + m[i]*j)
-    print(ans)
-
-
-if __name__ == '__main__':
-    for _ in range(int(input())):
-        solve()
+    d = {}
+    for i in range(n):
+        if (s[i] == "?" and p[i] != "?"):
+            d[p[i]] = d.get(p[i], 0) + 1
+        elif (s[i] != "?" and p[i] == "?"):
+            d[s[i]] = d.get(s[i], 0) + 1
+    print(d)
