@@ -71,50 +71,87 @@ typedef long long ll;
 #define fg(i, yha, wha, gap) for (ll i = yha; i < wha; i += gap)
 
 ///////////////////////////////////////////////////
-void buildTree(int *arr, int *tree, int start, int end, int treeNode)
-{
-    if (start == end)
-    {
-        tree[treeNode] = arr[start];
-        return;
-    }
-    int mid = (start + end) / 2;
-    buildTree(arr, tree, start, mid, 2 * treeNode);
-    buildTree(arr, tree, mid + 1, end, 2 * treeNode + 1);
-    tree[treeNode] = tree[2 * treeNode] + tree[2 * treeNode + 1];
-}
 
-void updateTree(int *arr, int *tree, int start, int end, int treeNode, int index, int value)
+// void solve()
+// {
+//     int n, k, z, ans = 0;
+//     cin >> n >> k >> z;
+//     int a[n];
+//     for (int i = 0; i < n; ++i)
+//         cin >> a[i];
+//     int p[n];
+//     p[0] = a[0];
+//     for (int i = 1; i < n; ++i)
+//         p[i] = p[i - 1] + a[i];
+//     int m[n];
+//     m[0] = 0;
+//     for (int i = 1; i < n; ++i)
+//         m[i] = max(m[i - 1], a[i] + a[i - 1]);
+//     for (int i = 1; i <= k; ++i)
+//     {
+//         if ((i % 2) != (k % 2))
+//             for (int j = 0; j < z && i + 2 * j + 1 <= k; ++j)
+//                 ans = max(ans, p[i] + m[i] * j + a[i - 1]);
+//         else
+//             for (int j = 0; j <= z && i + 2 * j <= k; ++j)
+//                 ans = max(ans, p[i] + m[i] * j);
+//     }
+//     cout << ans << "\n";
+// }
+
+void solve()
 {
-    if (start == end)
+    ll n, q;
+    cin >> n;
+    vl a(n);
+    cinv(a, n);
+    cin >> q;
+    vl payoff(q + 1);
+    map<ll, pair<ll, ll>> d;
+    for (int i = 1; i <= q; ++i)
     {
-        arr[index] = value;
-        tree[treeNode] = value;
-        return;
+        ll qtr;
+        cin >> qtr;
+        if (qtr == 2)
+        {
+            ll x;
+            1 cin >> x;
+            payoff[i] = x;
+        }
+        else
+        {
+            ll x, y;
+            cin >> x >> y;
+            d[x] = {i, y};
+            payoff[i] = 0;
+        }
     }
-    int mid = (start + end) / 2;
-    if (index <= mid)
-        updateTree(arr, tree, start, mid, 2 * treeNode, index, value);
-    else
-        updateTree(arr, tree, mid + 1, end, 2 * treeNode + 1, index, value);
-    tree[treeNode] = tree[2 * treeNode] + tree[2 * treeNode + 1];
+    ll max_payoff = *max_element(payoff.begin(), payoff.end());
+    vl revmax(q + 1);
+    revmax[q - 1] = payoff[q - 1];
+    for (int i = q - 2; i >= 0; i--)
+        revmax[i] = max(revmax[i + 1], payoff[i]);
+
+    for (int i = 0; i < n; ++i)
+    {
+        if (d.find(i + 1) == d.end())
+            cout << max(max_payoff, a[i]) << " ";
+        else
+        {
+            ll idx, val;
+            tie(idx, val) = d[i + 1];
+            cout << max(revmax[idx], val) << " ";
+        }
+    }
 }
 
 int32_t main()
 {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
-    int n;
-    cin >> n;
-    // while (n--)
-    //     solve();
-    // return 0;
-    cout << n * n;
+    int tc = 1;
+    // cin >> n;
+    while (tc--)
+        solve();
+    return 0;
 }
-
-// react native hooks course
-// https://coursesfreedownload.com/files/Udemy%20-%20NextJS%20&%20React%20-%20The%20Complete%20Guide.torrent
-// magnet:?xt=urn:btih:77EF19BF9FA35A1CD36FDE1BF1E78905DC034B09&dn=React%20Native%20-%20The%20Practical%20Guide%20%5B2021%20Edition%5D&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2F9.rarbg.me%3A2780%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2730%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce
-
-// https://coursesfreedownload.com/files/Udemy%20-%20React%20Native%20-%20The%20Practical%20Guide%20[2021%20Edition]%20(1).torrent
-// https://coursesfreedownload.com/files/Udemy%20-%20The%20Complete%20React%20Native%20+%20Hooks%20Course%20[2020%20Edition].torrent

@@ -1,9 +1,3 @@
-#include <iostream>
-#include <vector>
-#include <queue>
-#include <algorithm>
-#include <list>
-#include <stack>
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -16,22 +10,24 @@ using namespace std;
 ██║░░░░░██║░░██║██║██║░╚███║╚█████╔╝███████╗  ██║░░██║██║░░██║╚█████╔╝
 ╚═╝░░░░░╚═╝░░╚═╝╚═╝╚═╝░░╚══╝░╚════╝░╚══════╝  ╚═╝░░╚═╝╚═╝░░╚═╝░╚════╝░
 */
-//////////////////////////////////////////////////
+///////////////////////////////////////////////////
+#define fast_io                  \
+    ios::sync_with_stdio(false); \
+    cin.tie(0);                  \
+    cout.tie(0);
+#define file_io                        \
+    freopen("input.txt", "r+", stdin); \
+    freopen("output.txt", "w+", stdout);
+
+///////////////////////////////////////////////////
 #define pv(v)             \
     for (auto i : v)      \
         cout << i << " "; \
     cout << endl;
-
 #define cinv(v, n)              \
     for (int i = 0; i < n; i++) \
         cin >> v[i];
-
-#define inout                         \
-    freopen("input.txt", "r", stdin); \
-    freopen("output.txt", "w", stdout);
-
-///////////////////////////////////////////////////
-
+//////////////////////////////////////////////////
 typedef long long ll;
 #define int long long
 #define MOD 1000000007
@@ -99,59 +95,40 @@ typedef long long ll;
 //     cout << ans << "\n";
 // }
 
+int tp[200001][20];
 void solve()
 {
-    ll n, q;
-    cin >> n;
-    vl a(n);
-    cinv(a, n);
-    cin >> q;
-    vl payoff(q + 1);
-    map<ll, pair<ll, ll>> d;
-    for (int i = 1; i <= q; ++i)
-    {
-        ll q;
-        cin >> q;
-        if (q == 2)
-        {
-            ll x;
-            1 cin >> x;
-            payoff[i] = x;
-        }
-        else
-        {
-            ll x, y;
-            cin >> x >> y;
-            d[x] = {i, y};
-            payoff[i] = 0;
-        }
-    }
-    ll max_payoff = *max_element(payoff.begin(), payoff.end());
-    vl revmax(q + 1);
-    revmax[q - 1] = payoff[q - 1];
-    for (int i = q - 2; i >= 0; i--)
-        revmax[i] = max(revmax[i + 1], payoff[i]);
 
-    for (int i = 0; i < n; ++i)
+    int low, high;
+    cin >> low >> high;
+    int mx = -inf;
+    f(k, 0, 20)
     {
-        if (d.find(i + 1) == d.end())
-            cout << max(max_payoff, a[i]) << " ";
-        else
-        {
-            ll idx, val;
-            tie(idx, val) = d[i + 1];
-            cout << max(revmax[idx], val) << " ";
-        }
+        int p = (tp[high][k] - tp[low - 1][k]);
+        mx = max(mx, p);
     }
+    cout << high - low + 1 - mx << endl;
 }
-
 int32_t main()
 {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    f(i, 1, 200001)
+    {
+        int x = i, j = 0;
+        while (x)
+        {
+            int xx = x % 2;
+            tp[i][j] += xx;
+            j++;
+            x = x / 2;
+        }
+        f(k, 0, 20)
+            tp[i][k] += tp[i - 1][k];
+    }
     int tc = 1;
-    // cin >> n;
+    cin >> tc;
     while (tc--)
+    {
         solve();
+    }
     return 0;
 }

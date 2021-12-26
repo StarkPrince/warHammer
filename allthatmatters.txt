@@ -1,0 +1,8 @@
+//task 1
+implement a different solution for 1615B
+
+//task 2
+codechef 25th dec question optimal sorting
+
+//task 3
+atcoder 25th dec F. Sort and swap
