@@ -111,19 +111,7 @@ void solve()
 }
 int32_t main()
 {
-    f(i, 1, 200001)
-    {
-        int x = i, j = 0;
-        while (x)
-        {
-            int xx = x % 2;
-            tp[i][j] += xx;
-            j++;
-            x = x / 2;
-        }
-        f(k, 0, 20)
-            tp[i][k] += tp[i - 1][k];
-    }
+
     int tc = 1;
     cin >> tc;
     while (tc--)
