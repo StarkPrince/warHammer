@@ -1,21 +1,7 @@
-import math
-
-
-def gcd(a):
-    x = 0
-    for p in a:
-        x = math.gcd(x, p)
-    return x
-
-
-for _ in range(int(input())):
-    n = input()
-    *a, = map(int, input().split())
-    e, o = a[::2], a[1::2]
-    g1, g2 = gcd(e), gcd(o)
-    if g2 != 0 and all(x % g2 != 0 for x in e):
-        print(g2)
-    elif g1 != 0 and all(x % g1 != 0 for x in o):
-        print(g1)
-    else:
-        print(0)
+# atcoder
+# https://atcoder.jp/contests/arc132/tasks/arc132_a
+# https://atcoder.jp/contests/abc231/tasks/abc231_e
+# https://atcoder.jp/contests/abc233/tasks/abc233_f
+# codechef
+# https://www.codechef.com/CDRV21B/problems/CNTARRAY
+# https://www.codechef.com/LTIME103B/problems/OPTSORT
