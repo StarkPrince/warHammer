@@ -1,23 +1,15 @@
-d = []
-items = {}
-for person in range(int(input())):
-    liked = input().split()[1:]
-    disliked = input().split()[1:]
-    for i in liked:
-        if i not in items:
-            items[i] = [[], []]
-        items[i][0].append(person)
-    for i in disliked:
-        if i not in items:
-            items[i] = [[], []]
-        items[i][1].append(person)
-final_menu = []
-items_copy = items.copy()
-for i, j in items_copy.items():
-    if len(j[1]) == 0:
-        final_menu.append(i)
-        del items[i]
-    if len(j[0]) == 0:
-        del items[i]
-print(" ".join(final_menu))
-print(items)
+# for _ in range(int(input())):
+#     n, l = [int(x) for x in input().split()]
+#     a = [int(x) for x in input().split()]
+#     d = [{0: 0, 1: 0} for i in range(l)]
+#     for num in a:
+#         temp = bin(num)[2:].zfill(l)
+#         for j in range(l):
+#             d[j][int(temp[j])] += 1
+#     ans = ""
+#     for i in d:
+#         if i[0] > i[1]:
+#             ans += "0"
+#         else:
+#             ans += "1"
+#     print(int(ans, 2))
