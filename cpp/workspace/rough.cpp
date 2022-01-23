@@ -72,14 +72,38 @@ typedef long long ll;
 
 ///////////////////////////////////////////////////
 
+struct ListNode
+{
+    int val;
+    ListNode *next;
+    ListNode(int x) : val(x), next(NULL) {}
+};
+
+vector merge(vector<vector<int>> lists)
+{
+    ListNode *head = NULL;
+    // create a min heap of listnode
+    priority_queue<ListNode *, vector<ListNode *>, greater<ListNode *>> pq;
+
+    for (auto i : lists)
+    {
+        if (!i.empty())
+            pq.push(i);
+    }
+    // while the heap is not empty
+    while (!pq.empty())
+    {
+        ListNode *temp = pq.top();
+        pq.pop();
+        if (temp->next)
+            pq.push(temp->next);
+        temp->next = head;
+        head = temp;
+    }
+}
+
 void solve()
 {
-    int n;
-    cin >> n;
-    f(i, 0, n)
-    {
-        print(i);
-    }
 }
 int32_t main()
 {

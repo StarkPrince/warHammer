@@ -1,15 +1,47 @@
-# for _ in range(int(input())):
-#     n, l = [int(x) for x in input().split()]
-#     a = [int(x) for x in input().split()]
-#     d = [{0: 0, 1: 0} for i in range(l)]
-#     for num in a:
-#         temp = bin(num)[2:].zfill(l)
-#         for j in range(l):
-#             d[j][int(temp[j])] += 1
-#     ans = ""
-#     for i in d:
-#         if i[0] > i[1]:
-#             ans += "0"
-#         else:
-#             ans += "1"
-#     print(int(ans, 2))
+def MEX(arr):
+    n = len(arr)
+    for i in range(n):
+        if i not in arr:
+            return i
+    return n
+
+
+def upper_bound(arr, val):
+    l, r = 0, len(arr)
+    while l < r:
+        m = (l + r) // 2
+        if arr[m] <= val:
+            l = m + 1
+        else:
+            r = m
+    return l
+
+
+for i in range(int(input())):
+    n = int(input())
+    a = list(map(int, input().split()))
+    d = {}
+    for i in range(n):
+        if a[i] not in d:
+            d[a[i]] = []
+        d[a[i]].append(i)
+    ans = []
+    while d:
+        s = MEX(set(d.keys()))  # might be optimised
+        if s < len(d):
+            ans.append(s)
+            break
+        mx = -1
+        for i, j in d.items():
+            if i < s:
+                mx = max(mx, j[0])
+        for i, j in d.copy().items():
+            if i <= s:
+                ctr = upper_bound(j, mx)
+                if ctr == len(j):
+                    del d[i]
+                else:
+                    d[i] = j[ctr:]
+        ans.append(s)
+    print(len(ans))
+    print(*ans)
