@@ -72,39 +72,48 @@ typedef long long ll;
 
 ///////////////////////////////////////////////////
 
-struct ListNode
-{
-    int val;
-    ListNode *next;
-    ListNode(int x) : val(x), next(NULL) {}
-};
+// def combine(self, n: int, k: int) -> List[List[int]]:
+//     return self.helper(list([i+1 for i in range(n)]),[],k,set())
 
-vector merge(vector<vector<int>> lists)
+vector<vector<int>> helper(vector<int> arr, vector<int> lt, int k, set<string> d)
 {
-    ListNode *head = NULL;
-    // create a min heap of listnode
-    priority_queue<ListNode *, vector<ListNode *>, greater<ListNode *>> pq;
-
-    for (auto i : lists)
+    if (k == 0)
     {
-        if (!i.empty())
-            pq.push(i);
+        vector<vector<int>> ans;
+        ans.push_back(lt);
+        return ans;
     }
-    // while the heap is not empty
-    while (!pq.empty())
+    //     ans = []
+    //     for i in arr:
+    //         s = " ".join(str(j) for j in sorted(lt+[i]))
+    //         if s not in d:
+    //             d.add(s)
+    //             parr = arr.copy()
+    //             parr.remove(i)
+    //             ans+=self.helper(parr,lt+[i],k-1,d)
+    //         else:
+    //             d.add(s)
+    //     return ans
+    vector<vector<int>> ans;
+    for (int i = 0; i < arr.size(); i++)
     {
-        ListNode *temp = pq.top();
-        pq.pop();
-        if (temp->next)
-            pq.push(temp->next);
-        temp->next = head;
-        head = temp;
+        string s = "";
+        for (int j = 0; j < lt.size(); j++)
+            s += to_string(lt[j]) + " ";
+        s += to_string(arr[i]);
+        if (d.find(s) == d.end())
+        {
+            d.insert(s);
+            vector<int> parr = arr;
+            parr.erase(parr.begin() + i);
+            vector<vector<int>> temp = helper(parr, lt, k - 1, d);
+            for (int j = 0; j < temp.size(); j++)
+                ans.push_back(temp[j]);
+        }
     }
+    return ans;
 }
 
-void solve()
-{
-}
 int32_t main()
 {
     int t;
