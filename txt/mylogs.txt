@@ -1,50 +1,13 @@
-	Feb/27/2020 10:10UTC+5.5	Ashish_purbey	A - Watermelon	GNU C++17	Wrong answer on test 5	62 ms	0 KB
-71929652	Feb/26/2020 22:46UTC+5.5	Ashish_purbey	B - Books	GNU C++17	Wrong answer on test 11	156 ms	400 KB
-71929608	Feb/26/2020 22:45UTC+5.5	Ashish_purbey	B - Books	GNU C++17	Compilation error	0 ms	0 KB
-71929510	Feb/26/2020 22:43UTC+5.5	Ashish_purbey	B - Books	GNU C++17	Wrong answer on test 9	216 ms	400 KB
-71929375	Feb/26/2020 22:41UTC+5.5	Ashish_purbey	B - Books	GNU C++17	Compilation error	0 ms	0 KB
-71928880	Feb/26/2020 22:33UTC+5.5	Ashish_purbey	B - Books	GNU C++17	Wrong answer on test 9	156 ms	400 KB
-71926536	Feb/26/2020 21:51UTC+5.5	Ashish_purbey	B - Books	GNU C++17	Wrong answer on test 9	186 ms	400 KB
-71914862	Feb/26/2020 18:27UTC+5.5	Ashish_purbey	B - Books	GNU C++17	Time limit exceeded on test 9	2000 ms	800 KB
-71914772	Feb/26/2020 18:25UTC+5.5	Ashish_purbey	B - Books	MS C++	Compilation error	0 ms	0 KB
-71913090	Feb/26/2020 17:55UTC+5.5	Ashish_purbey	B - Books	MS C++	Compilation error	0 ms	0 KB
-71912452	Feb/26/2020 17:44UTC+5.5	Ashish_purbey	B - Books	MS C++	Compilation error	0 ms	0 KB
-71909185	Feb/26/2020 16:39UTC+5.5	Ashish_purbey	B - Books	MS C++	Wrong answer on test 1	30 ms	0 KB
-71909010	Feb/26/2020 16:35UTC+5.5	Ashish_purbey	B - Books	MS C++	Compilation error	0 ms	0 KB
-71903605	Feb/26/2020 14:34UTC+5.5	Ashish_purbey	B - Books	MS C++	Wrong answer on test 1	0 ms	0 KB
-71903434	Feb/26/2020 14:28UTC+5.5	Ashish_purbey	B - Books	MS C++	Wrong answer on test 8	62 ms	0 KB
-71878228	Feb/26/2020 00:01UTC+5.5	Ashish_purbey	B - Books	MS C++	Wrong answer on test 4	30 ms	0 KB
-71878101	Feb/25/2020 23:59UTC+5.5	Ashish_purbey	B - Books	MS C++	Wrong answer on test 4	30 ms	0 KB
-69504373	Jan/25/2020 13:25UTC+5.5	Ashish_purbey	B - Ciel and Flowers	MS C++	Wrong answer on test 10	62 ms	0 KB
-69504256	Jan/25/2020 13:22UTC+5.5	Ashish_purbey	B - Ciel and Flowers	MS C++	Wrong answer on test 6	60 ms	0 KB
-69503860	Jan/25/2020 13:11UTC+5.5	Ashish_purbey	B - Ciel and Flowers	MS C++	Wrong answer on test 5	62 ms	0 KB
-69503803	Jan/25/2020 13:10UTC+5.5	Ashish_purbey	B - Coach	MS C++	Wrong answer on test 1	30 ms	0 KB
-69501967	Jan/25/2020 12:25UTC+5.5	Ashish_purbey	B - Ciel and Flowers	MS C++	Wrong answer on test 6	30 ms	0 KB
-69501894	Jan/25/2020 12:24UTC+5.5	Ashish_purbey	B - Coach	MS C++	Wrong answer on test 1	30 ms	0 KB
-69501827	Jan/25/2020 12:22UTC+5.5	Ashish_purbey	B - Ciel and Flowers	MS C++	Wrong answer on test 5	30 ms	0 KB
-69262562	Jan/21/2020 23:01UTC+5.5	Ashish_purbey	B - Roadside Trees (Simplified Edition)	MS C++	Accepted	124 ms	400 KB
-69147128	Jan/19/2020 21:51UTC+5.5	Ashish_purbey	B - Present from Lena	MS C++	Accepted	92 ms	0 KB
-68979656	Jan/17/2020 15:43UTC+5.5	Ashish_purbey	B - Sort the Array	MS C++	Wrong answer on test 6	31 ms	0 KB
-68979576	Jan/17/2020 15:41UTC+5.5	Ashish_purbey	B - Sort the Array	MS C++	Wrong answer on test 5	31 ms	0 KB
-68979266	Jan/17/2020 15:34UTC+5.5	Ashish_purbey	B - Sort the Array	MS C++	Runtime error on test 3	15 ms	0 KB
-68973842	Jan/17/2020 13:34UTC+5.5	Ashish_purbey	B - Vanya and Lanterns	MS C++	Wrong answer on test 3	30 ms	0 KB
-68959019	Jan/17/2020 03:56UTC+5.5	Ashish_purbey	B - Vanya and Lanterns	MS C++	Wrong answer on test 3	15 ms	0 KB
-68948701	Jan/16/2020 22:38UTC+5.5	Ashish_purbey	B - Random Teams	MS C++	Accepted	31 ms	0 KB
-68947841	Jan/16/2020 22:20UTC+5.5	Ashish_purbey	B - Random Teams	MS C++	Time limit exceeded on test 7	1000 ms	0 KB
-68945258	Jan/16/2020 21:24UTC+5.5	Ashish_purbey	B - Queue at the School	MS C++	Accepted	62 ms	0 KB
-68945193	Jan/16/2020 21:23UTC+5.5	Ashish_purbey	B - Queue at the School	MS C++ 2017	Compilation error	0 ms	0 KB
-68944807	Jan/16/2020 21:14UTC+5.5	Ashish_purbey	B - Queue at the School	MS C++ 2017	Compilation error	0 ms	0 KB
-68944204	Jan/16/2020 21:01UTC+5.5	Ashish_purbey	B - Queue at the School	MS C++ 2017	Compilation error	0 ms	0 KB
-68880116	Jan/15/2020 23:56UTC+5.5	Ashish_purbey	B - Fox Dividing Cheese	MS C++ 2017	Accepted	31 ms	300 KB
-68870377	Jan/15/2020 20:28UTC+5.5	Ashish_purbey	B - Fox Dividing Cheese	MS C++ 2017	Wrong answer on test 8	31 ms	300 KB
-68853504	Jan/15/2020 15:21UTC+5.5	Ashish_purbey	B - Jzzhu and Sequences	MS C++ 2017	Time limit exceeded on test 3	1000 ms	200 KB
-68554567	Jan/10/2020 22:00UTC+5.5	Ashish_purbey	B - Routine Problem	GNU C++17	Wrong answer on test 3	30 ms	0 KB
-68522402	Jan/10/2020 20:17UTC+5.5	Ashish_purbey	A - Sereja and Bottles	GNU C++17	Wrong answer on test 3	62 ms	0 KB
-68521499	Jan/10/2020 20:15UTC+5.5	Ashish_purbey	A - Sereja and Bottles	GNU C++17	Wrong answer on test 1	30 ms	0 KB
-68450551	Jan/09/2020 19:41UTC+5.5	Ashish_purbey	A - Next Test	GNU C++17	Accepted	30 ms	0 KB
-68450360	Jan/09/2020 19:37UTC+5.5	Ashish_purbey	A - Next Test	GNU C++17	Wrong answer on test 2	0 ms	0 KB
-68450160	Jan/09/2020 19:33UTC+5.5	Ashish_purbey	A - Next Test	GNU C++17	Wrong answer on test 4	30 ms	0 KB
-68448431	Jan/09/2020 19:00UTC+5.5	Ashish_purbey	A - Next Test	GNU C++17	Wrong answer on test 2	30 ms	0 KB
-68448216	Jan/09/2020 18:56UTC+5.5	Ashish_purbey	A - Next Test	GNU C++17	Wrong answer on test 1	30 ms	0 KB
-68447658	Jan/09/2020 18:46UTC+5.5	Ashish_purbey	A - Translation	GNU C++17	Accepted	62 ms	0 KB
-68436200	Jan/09/2020 14:34UTC+5.5	Ashish_purbey	B - Sale	GNU C++17	Accepted	30 ms	0 KB
+path1 			path2			path3		path4
+
+html			html			html		html
+css				css				css   		css
+js				js				js			js
+mongodb			django			react		nextjs
+express			python			redux		graphql
+node			ejs				node		apollo
+				postgresql		mongo		redis
+								firebase	typeorm
+											aws
+
+											
