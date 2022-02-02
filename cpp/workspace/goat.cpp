@@ -68,46 +68,9 @@ typedef long long ll;
 
 ///////////////////////////////////////////////////
 
-// void solve()
-// {
-//     int n, k, z, ans = 0;
-//     cin >> n >> k >> z;
-//     int a[n];
-//     for (int i = 0; i < n; ++i)
-//         cin >> a[i];
-//     int p[n];
-//     p[0] = a[0];
-//     for (int i = 1; i < n; ++i)
-//         p[i] = p[i - 1] + a[i];
-//     int m[n];
-//     m[0] = 0;
-//     for (int i = 1; i < n; ++i)
-//         m[i] = max(m[i - 1], a[i] + a[i - 1]);
-//     for (int i = 1; i <= k; ++i)
-//     {
-//         if ((i % 2) != (k % 2))
-//             for (int j = 0; j < z && i + 2 * j + 1 <= k; ++j)
-//                 ans = max(ans, p[i] + m[i] * j + a[i - 1]);
-//         else
-//             for (int j = 0; j <= z && i + 2 * j <= k; ++j)
-//                 ans = max(ans, p[i] + m[i] * j);
-//     }
-//     cout << ans << "\n";
-// }
-
-int tp[200001][20];
 void solve()
 {
 
-    int low, high;
-    cin >> low >> high;
-    int mx = -inf;
-    f(k, 0, 20)
-    {
-        int p = (tp[high][k] - tp[low - 1][k]);
-        mx = max(mx, p);
-    }
-    cout << high - low + 1 - mx << endl;
 }
 int32_t main()
 {
@@ -120,6 +83,3 @@ int32_t main()
     }
     return 0;
 }
-
-// games.princeraj - 105
-// rajprince1608 - 93

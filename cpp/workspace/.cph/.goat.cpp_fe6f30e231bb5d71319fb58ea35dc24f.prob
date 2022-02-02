@@ -1,0 +1,1 @@
+{"name":"Local: goat","url":"c:\\TempD\\Codes\\warHammer\\cpp\\workspace\\goat.cpp","tests":[{"id":1643454941358,"input":"3\n3 4\n2 8\n123 123","output":"81\n256\n921450052"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\TempD\\Codes\\warHammer\\cpp\\workspace\\goat.cpp","group":"local","local":true}
