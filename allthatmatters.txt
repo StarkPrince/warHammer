@@ -6,3 +6,18 @@ codechef 25th dec question optimal sorting
 
 //task 3
 atcoder 25th dec F. Sort and swap
+
+
+A https://codeforces.com/problemset/problem/1559/A [900]
+B https://codeforces.com/problemset/problem/1514/B [1200]
+C https://codeforces.com/problemset/problem/1420/B [1200]
+D https://codeforces.com/contest/1045/problem/I [1600]
+E https://codeforces.com/problemset/problem/276/D [1700]
+F https://codeforces.com/problemset/problem/1466/E [1800]
+G https://codeforces.com/contest/778/problem/B [1800]
+H https://codeforces.com/problemset/problem/580/D [1800]
+I https://codeforces.com/problemset/problem/1391/D [2000]
+J https://codeforces.com/problemset/problem/1446/C [2100]
+K https://codeforces.com/contest/1451/problem/E2 [2300]
+L https://codeforces.com/problemset/problem/1493/E [2600]
+M https://codeforces.com/problemset/problem/1342/F [3000]

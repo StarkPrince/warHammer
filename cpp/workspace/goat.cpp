@@ -67,10 +67,19 @@ typedef long long ll;
 #define fg(i, yha, wha, gap) for (ll i = yha; i < wha; i += gap)
 
 ///////////////////////////////////////////////////
+ll catalan(ll n)
+{
+    ll cat_ = 1;
+    for (ll i = 1; i <= n; i++)
+    {
+        cat_ *= (4 * i - 2);
+        cat_ /= (i + 1);
+    }
+    return cat_;
+}
 
 void solve()
 {
-
 }
 int32_t main()
 {

@@ -1,30 +1,26 @@
-def gcd(a, b):
-    # iterative approach
-    for i in range(min(a, b), 0, -1):
-        if a % i == 0 and b % i == 0:
-            return i
-    return 1
+for _ in range(int(input())):
+    n = int(input())
+    participants = []
+    for _ in range(n):
+        participants.append([int(x) for x in input().split()])
+    possible_winners = set([i for i in range(n)])
 
-
-def comb(n, r):
-    p = 1
-    k = 1
-    if (n - r < r):
-        r = n - r
-    if (r != 0):
-        while (r):
-            p *= n
-            k *= r
-            m = gcd(p, k)
-            p //= m
-            k //= m
-            n -= 1
-            r -= 1
-    else:
-        p = 1
-
-    return p % 1000000007
-
-
-n, m = [int(i) for i in input().split()]
-print(comb(n+m-1, n-1))
+    while True:
+        if len(possible_winners) == 0:
+            print("-1")
+            break
+        p1 = possible_winners.pop()
+        for p2 in possible_winners.copy():
+            if p1 == p2:
+                continue
+            p1p = p2p = 0
+            for j in range(5):
+                if participants[p1][j] < participants[p2][j]:
+                    p1p += 1
+                else:
+                    p2p += 1
+            if p1p > p2p and p2 in possible_winners:
+                possible_winners.remove(p2)
+            elif p2p > p1p and p1 in possible_winners:
+                possible_winners.remove(p1)
+    print(possible_winners)
