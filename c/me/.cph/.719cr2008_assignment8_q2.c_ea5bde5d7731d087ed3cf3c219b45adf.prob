@@ -1,0 +1,1 @@
+{"name":"Local: 719cr2008_assignment8_q2","url":"c:\\TempD\\Codes\\warHammer\\c\\me\\719cr2008_assignment8_q2.c","tests":[{"id":1646327584972,"input":"6\n2 3 10 5 6 1","output":"1 2 3 5 6 10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\TempD\\Codes\\warHammer\\c\\me\\719cr2008_assignment8_q2.c","group":"local","local":true}
